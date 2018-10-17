@@ -16,3 +16,8 @@
 * getting data, webscrapping (rvest)
 * blogging creating a website (blogdown)
 * "programming" loops conditionals types
+
+## Datasets
+
+* Reddit https://www.reddit.com/r/datasets/
+* GOT: https://github.com/jeffreylancaster/game-of-thrones
