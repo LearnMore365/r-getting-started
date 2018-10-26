@@ -11,6 +11,8 @@ getwd()
 ```
 
 
+## Folder Structure
+
 
 > Show new and existing directory options. Some people may already have collected data.
 
@@ -18,5 +20,13 @@ getwd()
     |
     +---Output
     
+
+## Packages
+
+> We can prime this by telling people about the R community in the introduction
+    
+installing and loading (maybe show updating in RStudio)    
     
 ## Importing Data    
+
+Here we introduce the `readr` and `readxl` packagtes.
