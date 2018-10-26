@@ -1,0 +1,3 @@
+# Visualizing Data
+
+here we show the `ggplot2` and mayne sneak peak at `plotly`

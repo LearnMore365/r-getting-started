@@ -1,5 +1,5 @@
 --- 
-title: "The Working Title"
+title: "R you ready?"
 author: "Reto Wyss, Greg Martin"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -13,15 +13,12 @@ description: "desc"
 ```{r include=FALSE}
 # automatically create a bib database for R packages
 knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+  .packages(), 'bookdown', 'knitr', 'rmarkdown', 'tidyverse'
 ), 'packages.bib')
 ```
 
 
-# R - Getting Started 
-
-## An easy step-by-step introduction to using R
+# What Is This Book? {-}
 
 
-
-Lorem Ipsum
+In this book @R-base and @R-tidyverse

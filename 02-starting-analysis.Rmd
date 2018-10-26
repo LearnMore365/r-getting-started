@@ -1,0 +1,22 @@
+# Starting Data Analysis
+
+## Creating A Project
+
+You should always use the project functonality when you work with R and RStudio.
+
+This also sets the working-directory.
+
+```{r}
+getwd()
+```
+
+
+
+> Show new and existing directory options. Some people may already have collected data.
+
+    +---Data
+    |
+    +---Output
+    
+    
+## Importing Data    

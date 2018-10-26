@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="next-steps.html">
-
+<link rel="prev" href="setup.html">
+<link rel="next" href="starting-data-analysis.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -171,15 +171,93 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="references" class="section level1 unnumbered">
-<h1>References</h1>
-
-<div id="refs" class="references">
-<div>
-<p>R Core Team. 2018. <em>R: A Language and Environment for Statistical Computing</em>. Vienna, Austria: R Foundation for Statistical Computing. <a href="https://www.R-project.org/">https://www.R-project.org/</a>.</p>
+<div id="working-with-r-in-rstudio" class="section level1">
+<h1><span class="header-section-number">2</span> Working with R in RStudio</h1>
+<p>In this chapter bla bla (promise)</p>
+<p>(preview)</p>
+<p>Explain Quadrants</p>
+<blockquote>
+<p>I think we could create a section for each of the important windows/tabs. Also we should make every step as actionable as possible.</p>
+</blockquote>
+<div id="files-viewer-help-br" class="section level2">
+<h2><span class="header-section-number">2.1</span> Files, Viewer, Help (br)</h2>
 </div>
-<div>
-<p>Wickham, Hadley. 2017. <em>Tidyverse: Easily Install and Load the ’Tidyverse’</em>. <a href="https://CRAN.R-project.org/package=tidyverse">https://CRAN.R-project.org/package=tidyverse</a>.</p>
+<div id="the-console-bl" class="section level2">
+<h2><span class="header-section-number">2.2</span> The Console (bl)</h2>
+<blockquote>
+<p>[Action] Show arthimetic ops here</p>
+</blockquote>
+<p>Now that you are all set up we want to dive straight into using R. To get the
+most out of this tutorial you should try to run the code yourself on the
+console in RStudio. You can think of R as a calculator - a very powerful
+calculator. R supports the five basic arithmetic operations you are familiar
+with and three more you might not yet have seen. The operators for addition,
+subtraction and multiplication are self explanatory.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="dv">4</span> <span class="op">+</span><span class="st"> </span><span class="dv">5</span>    <span class="co"># Addition</span></a>
+<a class="sourceLine" id="cb1-2" data-line-number="2"><span class="dv">10</span> <span class="op">-</span><span class="st"> </span><span class="dv">1</span>   <span class="co"># Subtraction</span></a>
+<a class="sourceLine" id="cb1-3" data-line-number="3"><span class="dv">3</span> <span class="op">*</span><span class="st"> </span><span class="dv">3</span>    <span class="co"># Multiplication</span></a>
+<a class="sourceLine" id="cb1-4" data-line-number="4"><span class="dv">27</span> <span class="op">/</span><span class="st"> </span><span class="dv">3</span>   <span class="co"># Division</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5"><span class="dv">3</span> <span class="op">**</span><span class="st"> </span><span class="dv">2</span>   <span class="co"># Power</span></a>
+<a class="sourceLine" id="cb1-6" data-line-number="6"></a>
+<a class="sourceLine" id="cb1-7" data-line-number="7"><span class="co"># Standard operator presedence and parentheses rules apply</span></a>
+<a class="sourceLine" id="cb1-8" data-line-number="8">(<span class="dv">35</span> <span class="op">+</span><span class="st"> </span><span class="dv">8</span>) <span class="op">*</span><span class="st"> </span><span class="dv">2</span> <span class="op">**</span><span class="st"> </span>(<span class="dv">10</span> <span class="op">/</span><span class="st"> </span><span class="dv">2</span>) <span class="op">-</span><span class="st"> </span><span class="dv">39</span></a></code></pre></div>
+<pre><code>## [1] 9
+## [1] 9
+## [1] 9
+## [1] 9
+## [1] 9
+## [1] 1337</code></pre>
+<p>There are two ways of writing the power operator <code>**</code> and <code>^</code>. Personally,
+I prefer the first way.</p>
+<blockquote>
+<p>Maybe cut this part</p>
+</blockquote>
+<p>Now, let’s have a look at the three less common operator. They are modulo,
+whole number division and matrix-multiplication. test change</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="dv">43</span> <span class="op">%%</span><span class="st"> </span><span class="dv">7</span>               <span class="co"># Modulo</span></a>
+<a class="sourceLine" id="cb3-2" data-line-number="2"><span class="dv">43</span> <span class="op">%/%</span><span class="st"> </span><span class="dv">7</span>              <span class="co"># Whole number division</span></a>
+<a class="sourceLine" id="cb3-3" data-line-number="3"><span class="kw">c</span>(<span class="dv">4</span>, <span class="dv">2</span>) <span class="op">%*%</span><span class="st"> </span><span class="kw">c</span>(<span class="dv">2</span>, <span class="dv">4</span>)   <span class="co"># Matrix-multiplication</span></a></code></pre></div>
+<pre><code>## [1] 1
+## [1] 6
+##      [,1]
+## [1,]   16</code></pre>
+</div>
+<div id="script-tl" class="section level2">
+<h2><span class="header-section-number">2.3</span> Script (tl)</h2>
+<blockquote>
+<p>[Action] Show how code (arithmetic can be written in a script file and then be executed on the console)</p>
+</blockquote>
+<p>Top left is the script window</p>
+</div>
+<div id="history-and-environment-tr" class="section level2">
+<h2><span class="header-section-number">2.4</span> History and Environment (tr)</h2>
+<blockquote>
+<p>[Action] Show how to assign variables</p>
+</blockquote>
+<p>ow, let’s define our first variable. We will call it <code>my_first_variable</code>.</p>
+<div id="creating-variables" class="section level3">
+<h3><span class="header-section-number">2.4.1</span> Creating variables</h3>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1">my_first_variable &lt;-<span class="st"> </span><span class="dv">42</span></a></code></pre></div>
+<p>When you enter this on your R console in RStudio nothing will happen. We have told R to store the number 42 in a variable and we call this specific variable <code>my_first_variable</code>. To retrieve the value of our variable we just type the variable name and hit enter.</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1">my_first_variable</a></code></pre></div>
+<pre><code>## [1] 42</code></pre>
+<p>Arithmetic operations work on variables just like they do on literal numbers.</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1">a &lt;-<span class="st"> </span><span class="dv">5</span></a>
+<a class="sourceLine" id="cb8-2" data-line-number="2">b &lt;-<span class="st"> </span><span class="dv">10</span></a>
+<a class="sourceLine" id="cb8-3" data-line-number="3">a <span class="op">*</span><span class="st"> </span>b</a></code></pre></div>
+<pre><code>## [1] 50</code></pre>
+</div>
+<div id="vectors" class="section level3">
+<h3><span class="header-section-number">2.4.2</span> Vectors</h3>
+<p>Vectors are a data-structure. They can hold multiple values at once and they can be referenced by a single variable. To create a vector you will use <code>c()</code>.</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb10-1" data-line-number="1">my_first_vector &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">42</span>, <span class="dv">5</span>, <span class="dv">10</span>)</a></code></pre></div>
+<p>You can have a glimpse at the values in your vector by typing its name.</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" data-line-number="1">my_first_vector</a></code></pre></div>
+<pre><code>## [1] 42  5 10</code></pre>
+<p>Performing arithmetics on vector is analogous to atomic values.</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb13-1" data-line-number="1">my_first_vector <span class="op">*</span><span class="st"> </span><span class="dv">10</span></a></code></pre></div>
+<pre><code>## [1] 420  50 100</code></pre>
+
 </div>
 </div>
 </div>
@@ -188,8 +266,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-<a href="next-steps.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="setup.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="starting-data-analysis.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

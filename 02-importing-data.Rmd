@@ -1,8 +1,0 @@
-# First Steps
-
-```{r}
-library(readr)
-library(readxl)
-
-```
-

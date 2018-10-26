@@ -1,0 +1,14 @@
+# Manipulating Data
+
+
+Here we introduce the `tidyr`, `dplyr`and `forcats` packages.
+
+```{r}
+library(tidyr)
+
+
+iris %>% 
+  separate(Sepal.Length, into = c("first", "second"), sep = "\\.")
+
+```
+
