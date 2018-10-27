@@ -8,7 +8,9 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 description: "desc"
+cover-image: "/static/images/test-cover.jpg"
 ---
+
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
@@ -18,7 +20,14 @@ knitr::write_bib(c(
 ```
 
 
+
+
 # Preface {-}
+
+
+```{r asd-view, echo=FALSE, fig.cap='RStudio (This is the caption)', out.width='100%'}
+knitr::include_graphics("static/images/test-cover.jpg", dpi = NA)
+```
 
 
 $$
