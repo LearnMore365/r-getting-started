@@ -8,6 +8,13 @@ Explain Quadrants
 
 > I think we could create a section for each of the important windows/tabs. Also we should make every step as actionable as possible.
 
+
+Testing image
+
+```{r rstudio-view, echo=FALSE, fig.cap='RStudio (This is the caption)', out.width='100%'}
+knitr::include_graphics("static/images/RStudio.png", dpi = NA)
+```
+
 ## Files, Viewer, Help (br)
 
 

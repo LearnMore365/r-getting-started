@@ -1,7 +1,16 @@
 # Manipulating Data
 
 
-Here we introduce the `tidyr`, `dplyr`and `forcats` packages.
+Here we introduce the `tidyr`, `dplyr`, `stringr` and `forcats` packages.
+
+
+Important functions:
+
+* dplyr::rename
+* dplyr::mutate
+* tidyr::separate
+* stringr::str_extract
+* stringr::str_replace
 
 ```{r}
 library(tidyr)

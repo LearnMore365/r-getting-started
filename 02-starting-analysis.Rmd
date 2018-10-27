@@ -29,4 +29,50 @@ installing and loading (maybe show updating in RStudio)
     
 ## Importing Data    
 
+> This is rather short and not worth a chapter on it's own.
+
+Filetypes:
+
+* csv
+* xlsx
+
+
+```{r}
+library(readr)
+```
+
+
 Here we introduce the `readr` and `readxl` packagtes.
+
+
+```{r include=FALSE}
+write_csv(iris, path = "iris.csv")
+```
+
+
+
+```{r readr-1}
+my_iris <- read_csv("iris.csv")
+
+
+head(my_iris, n = 5)
+```
+
+
+this is useful because we can fix the column types like this.
+
+
+```{r}
+my_iris <- read_csv(
+    file = "iris.csv",
+    col_types = cols(
+      Sepal.Length = col_double(),
+      Sepal.Width = col_double(),
+      Petal.Length = col_double(),
+      Petal.Width = col_double(),
+      Species = col_character()
+    )
+)
+
+```
+

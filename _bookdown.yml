@@ -3,3 +3,5 @@ delete_merged_file: true
 language:
   ui:
     chapter_name: ""
+output_dir: "_book"
+before_chapter_script: "_before.R"

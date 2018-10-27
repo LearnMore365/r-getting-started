@@ -18,7 +18,25 @@ knitr::write_bib(c(
 ```
 
 
-# What Is This Book? {-}
+# Preface {-}
 
+
+$$
+a = \sum
+$$
 
 In this book @R-base and @R-tidyverse
+
+```{definition}
+Here is my theorem.
+```
+
+
+```{example, label ="My-Example"}
+This is my example
+```
+
+
+```{block, type='foo'} 
+This is a custom block. We can style it however we want.
+```
