@@ -1,0 +1,756 @@
+actor,person,episodes,start_year,end_year
+Peter Dinklage,Tyrion Lannister,61,2011,2017
+Lena Headey,Cersei Lannister,58,2011,2017
+Emilia Clarke,Daenerys Targaryen,56,2011,2017
+Kit Harington,Jon Snow,56,2011,2017
+Sophie Turner,Sansa Stark,54,2011,2017
+Maisie Williams,Arya Stark,53,2011,2017
+Nikolaj Coster-Waldau,Jaime Lannister,49,2011,2017
+Iain Glen,Jorah Mormont,48,2011,2017
+Alfie Allen,Theon Greyjoy,43,2011,2017
+John Bradley,Samwell Tarly,43,2011,2017
+Aidan Gillen,Petyr 'Littlefinger' Baelish,41,2011,2017
+Conleth Hill,Lord Varys,41,2011,2017
+Gwendoline Christie,Brienne of Tarth,37,2012,2017
+Liam Cunningham,Davos Seaworth,36,2012,2017
+Isaac Hempstead Wright,Bran Stark,35,2011,2017
+Jerome Flynn,Bronn,34,2011,2017
+Nathalie Emmanuel,Missandei,34,2013,2017
+Rory McCann,Sandor 'The Hound' Clegane,33,2011,2017
+Julian Glover,Grand Maester Pycelle,31,2011,2016
+Ben Crompton,Eddison Tollett,30,2012,2017
+Daniel Portman,Podrick Payne,30,2012,2017
+Carice van Houten,Melisandre,28,2012,2017
+Kristofer Hivju,Tormund Giantsbane,28,2013,2017
+Jacob Anderson,Grey Worm,28,2013,2017
+Charles Dance,Tywin Lannister,27,2011,2015
+Natalie Dormer,Margaery Tyrell,26,2012,2016
+Jack Gleeson,Joffrey Baratheon,26,2011,2014
+Michelle Fairley,Catelyn Stark,25,2011,2013
+Ian McElhinney,Barristan Selmy,25,2011,2015
+Stephen Dillane,Stannis Baratheon,24,2012,2015
+Hannah Murray,Gilly,24,2012,2017
+Kristian Nairn,Hodor,23,2011,2016
+Mark Stanley,Grenn,22,2011,2014
+Richard Madden,Robb Stark,21,2011,2013
+Finn Jones,Loras Tyrell,21,2011,2016
+Sibel Kekilli,Shae,20,2011,2014
+Iwan Rheon,Ramsay Bolton,20,2013,2016
+Michael McElhatton,Roose Bolton,19,2012,2016
+Owen Teale,Alliser Thorne,19,2011,2016
+Joe Dempsie,Gendry,19,2011,2017
+Anton Lesser,Qyburn,19,2013,2017
+Michiel Huisman,Daario Naharis,18,2014,2016
+Diana Rigg,Olenna Tyrell,18,2013,2017
+Dean-Charles Chapman,Tommen Baratheon,18,2013,2016
+Rose Leslie,Ygritte,17,2012,2014
+Tom Wlaschiha,Jaqen H'ghar,17,2012,2016
+Brenock O'Connor,Olly,17,2014,2016
+Ian Beattie,Meryn Trant,17,2011,2015
+Natalia Tena,Osha,16,2011,2016
+Ellie Kendrick,Meera Reed,16,2013,2017
+Eugene Simon,Lancel Lannister,16,2011,2016
+Dominic Carter,Janos Slynt,15,2011,2015
+Ian Whyte,Wun Wun,15,2011,2017
+Donald Sumpter,Maester Luwin,14,2011,2012
+Gemma Whelan,Yara Greyjoy,14,2012,2017
+Hafþór Júlíus Björnsson,Gregor Clegane,14,2014,2017
+Esmé Bianco,Ros,14,2011,2013
+Art Parkinson,Rickon Stark,14,2011,2016
+Brian Fortune,Othell Yarwyck,14,2011,2016
+Indira Varma,Ellaria Sand,13,2014,2017
+Ron Donachie,Rodrik Cassel,13,2011,2012
+Roger Ashton-Griffiths,Mace Tyrell,13,2014,2016
+Josef Altin,Pypar,13,2011,2014
+Amrita Acharia,Irri,13,2011,2012
+Jonathan Pryce,High Sparrow,12,2015,2016
+James Cosmo,Jeor Mormont,12,2011,2013
+Ian Gelder,Kevan Lannister,12,2011,2016
+Luke Barnes,Rast,12,2011,2014
+Ben Hawkey,Hot Pie,12,2011,2017
+Oona Chaplin,Talisa Stark,11,2012,2013
+Peter Vaughan,Maester Aemon,11,2011,2015
+Faye Marsay,The Waif,11,2015,2016
+Roxanne McKee,Doreah,11,2011,2012
+Sean Bean,Eddard 'Ned' Stark,11,2011,2013
+Paul Kaye,Thoros of Myr,10,2013,2017
+Tara Fitzgerald,Selyse Baratheon,10,2013,2015
+Thomas Brodie-Sangster,Jojen Reed,10,2013,2014
+Kerry Ingram,Shireen Baratheon,10,2013,2015
+Michael Condron,Bowen Marsh,10,2015,2016
+Jason Momoa,Khal Drogo,10,2011,2012
+Richard Dormer,Beric Dondarrion,9,2013,2017
+Rosabell Laurenti Sellers,Tyene Sand,9,2015,2017
+Rupert Vansittart,Yohn Royce,9,2014,2017
+Gethin Anthony,Renly Baratheon,8,2011,2012
+Tobias Menzies,Edmure Tully,8,2013,2016
+Noah Taylor,Locke,8,2013,2014
+Keisha Castle-Hughes,Obara Sand,8,2015,2017
+Joel Fry,Hizdahr zo Loraq,8,2014,2015
+Jessica Henwick,Nymeria Sand,8,2015,2017
+Richard Rycroft,Maester Wolkan,8,2016,2017
+Hannah Waddingham,Septa Unella,8,2015,2016
+Charlotte Hope,Myranda,8,2013,2016
+Steven Cole,Kovarro,8,2012,2012
+Lino Facioli,Robin Arryn,8,2011,2016
+Callum Wharry,Tommen Baratheon,8,2011,2012
+Aimee Richardson,Myrcella Baratheon,8,2011,2012
+Mark Addy,Robert Baratheon,7,2011,2011
+Pedro Pascal,Oberyn Martell,7,2014,2014
+Francis Magee,Yoren,7,2011,2012
+Clive Russell,Brynden 'Blackfish' Tully,7,2013,2016
+Will Tudor,Olyvar,7,2013,2015
+Staz Nair,Qhono,7,2016,2017
+Elyes Gabel,Rakharo,7,2011,2012
+Josephine Gillan,Marei,7,2012,2016
+David Bradley,Walder Frey,6,2011,2017
+Joseph Mawle,Benjen Stark,6,2011,2017
+Pilou Asbæk,Euron Greyjoy,6,2016,2017
+Mackenzie Crook,Orell,6,2013,2013
+Deobia Oparei,Areo Hotah,6,2015,2016
+Susan Brown,Septa Mordane,6,2011,2011
+Tim Plester,Black Walder Rivers,6,2013,2016
+Dar Salim,Qotho,6,2011,2011
+Tony Way,Dontos Hollard,6,2012,2014
+Nell Tiger Free,Myrcella Baratheon,6,2015,2016
+Philip McGinley,Anguy,6,2013,2013
+Paul Bentley,High Septon,6,2013,2015
+Sara Dylan,Bernadette,6,2012,2017
+Dennis McKeever,Night's Watch Officer,6,2011,2013
+Harry Lloyd,Viserys Targaryen,5,2011,2011
+Jamie Sives,Jory Cassel,5,2011,2011
+Kate Dickie,Lysa Arryn,5,2011,2014
+Ciarán Hinds,Mance Rayder,5,2013,2015
+Robert Pugh,Craster,5,2012,2013
+Alexander Siddig,Doran Martell,5,2015,2016
+Nonso Anozie,Xaro Xhoan Daxos,5,2012,2012
+James Faulkner,Randyll Tarly,5,2016,2017
+Tim McInnerny,Robett Glover,5,2016,2017
+John Stahl,Rickard Karstark,5,2012,2013
+Ralph Ineson,Dagmer Cleftjaw,5,2012,2012
+Bella Ramsey,Lyanna Mormont,5,2016,2017
+Elizabeth Webster,Walda Bolton,5,2014,2016
+Toby Sebastian,Trystane Martell,5,2015,2016
+Jamie Michie,Steelshanks Walton,5,2013,2013
+Jim Broadbent,Archmaester Ebrose,4,2017,2017
+Mark Gatiss,Tycho Nestoris,4,2014,2017
+Patrick Malahide,Balon Greyjoy,4,2012,2016
+Ian Hanmore,Pyat Pree,4,2012,2012
+Yuri Kolokolnikov,Styr,4,2014,2014
+Enzo Cilenti,Yezzan zo Qaggaz,4,2015,2016
+Burn Gorman,Karl Tanner,4,2013,2014
+Wilko Johnson,Ilyn Payne,4,2011,2012
+Emun Elliott,Marillion,4,2011,2011
+Tom Hopper,Dickon Tarly,4,2017,2017
+Simon Armstrong,Qhorin Halfhand,4,2012,2012
+Daniel Tuite,Lothar Frey,4,2016,2016
+Andy Beckwith,Rorge,4,2012,2014
+Eros Vlahos,Lommy Greenhands,4,2011,2012
+Kerr Logan,Matthos Seaworth,4,2012,2012
+Sahara Knite,Armeca,4,2011,2012
+Robert Sterne,Royal Steward,4,2011,2011
+Forbes KB,Black Lorren,4,2012,2012
+Fintan McKeown,Amory Lorch,4,2012,2012
+Gerard Jordan,Biter,4,2012,2014
+Robert Aramayo,Young Ned,4,2016,2017
+William Nevan Wilson,Baby Sam,4,2016,2017
+James Robert Wilson,Baby Sam,4,2016,2017
+Vladimir 'Furdo' Furdik,The Night King,4,2016,2017
+Tobias Winter,Timett,4,2011,2012
+Richard E. Grant,Izembaro,3,2016,2016
+Essie Davis,Lady Crane,3,2016,2016
+Nicholas Blane,Spice King,3,2012,2012
+Max von Sydow,Three-Eyed Raven,3,2016,2016
+Miltos Yerolemou,Syrio Forel,3,2011,2011
+Brendan Cowell,Harrag,3,2017,2017
+Lucian Msamati,Salladhor Saan,3,2012,2014
+Ed Skrein,Daario Naharis,3,2013,2013
+Clive Mantle,Greatjon Umber,3,2011,2011
+Kevin Eldon,Camello,3,2016,2017
+Paul Rattray,Harald Karstark,3,2016,2016
+Neil Fingleton,Giant Wight #2,3,2014,2017
+Kae Alexander,Leaf,3,2016,2016
+Leigh Gill,Bobono,3,2016,2016
+George Georgiou,Razdal mo Eraz,3,2013,2016
+Sarine Sofair,Lhara,3,2014,2015
+Rob Callender,Clarenzo,3,2016,2016
+Joseph Gatt,Thenn Warg,3,2014,2014
+Mia Soteriou,Mirri Maz Duur,3,2011,2011
+Andy Kellegher,Polliver,3,2012,2014
+Karl Davies,Alton Lannister,3,2012,2012
+Joseph Naufahu,Khal Moro,3,2016,2016
+Dan Hildebrand,Kraznys mo Nakloz,3,2013,2013
+Reece Noi,Mossador,3,2014,2015
+Ross Mullan,White Walker,3,2012,2014
+Edward Dogliani,Rattleshirt,3,2012,2013
+Meena Rayann,Vala,3,2015,2016
+Maisie Dee,Daisy,3,2012,2012
+Samantha Bentley,Bathhouse Prostitute,3,2014,2015
+Slavko Juraga,Silk King,3,2012,2012
+Diogo Sales,Dothraki Bloodrider #1,3,2016,2016
+Nanna Bryndís Hilmarsdóttir,Musician #1,3,2016,2016
+Junade Khan,Dothraki Bloodrider #2,3,2016,2016
+Ragnar Þórhallsson,Musician #2,3,2016,2016
+Arnar Rosenkranz Hilmarsson,Musician #3,3,2016,2016
+Brynjar Leifsson,Musician #4,3,2016,2016
+Robert Fawsitt,Loyal Night's Watchman #2,3,2016,2016
+Kristján Kristjánsson,Musician #5,3,2016,2016
+Xena Avramidis,King's Landing Whore,3,2014,2015
+Valis Volkova,Dothraki Woman Having Sex,3,2015,2016
+Megan Parkinson,Alys Karstark,3,2016,2017
+Chuku Modu,Aggo,3,2016,2016
+Annette Hannah,Frances,3,2016,2017
+Roy Dotrice,Hallyne,2,2012,2012
+Roger Allam,Illyrio Mopatis,2,2011,2011
+Jóhannes Haukur Jóhannesson,Lem Lemoncloak,2,2016,2016
+Dean S. Jagger,Smalljon Umber,2,2016,2016
+Ciaran Bermingham,Mord,2,2011,2011
+Michael Feast,Aeron Greyjoy,2,2016,2016
+Murray McArthur,Dim Dalba,2,2015,2016
+Eddie Jackson,Belicho Paenymion,2,2016,2016
+Ricky Champ,Gatins,2,2016,2016
+Margaret John,Old Nan,2,2011,2011
+Richard Brake,The Night King,2,2014,2015
+Ian Davies,Morgan,2,2016,2016
+Conan Stevens,Gregor Clegane,2,2011,2011
+Adewale Akinnuoye-Agbaje,Malko,2,2015,2015
+Oengus MacNamara,Thin Man,2,2015,2015
+Tom Brooke,Lothar Frey,2,2013,2013
+Eline Powell,Bianca,2,2016,2016
+Brendan McCormack,Vardis Egen,2,2011,2011
+Mark Lewis Jones,Shagga,2,2011,2011
+Laura Pradelska,Quaithe,2,2012,2012
+Eva Butterly,Margaery Tyrell Mummer,2,2016,2016
+Stella McCusker,Old Woman,2,2015,2015
+Jefferson Hall,Hugh of the Vale,2,2011,2011
+Deirdre Monaghan,Morag,2,2014,2014
+Will O'Connell,Todder,2,2013,2015
+Ali Lyons,Johnna,2,2015,2015
+Karla Lyons,Willa,2,2015,2015
+Lucy Hayes,Lady Kitty Frey,2,2016,2017
+Aisling Franciosi,Lyanna Stark,2,2016,2017
+Peter Ballance,Farlen,2,2012,2012
+Alisdair Simpson,Donnel Waynwood,2,2014,2014
+David Coakley,Drennan,2,2012,2012
+Harry Grasby,Ned Umber,2,2017,2017
+Jane McGrath,Sissy,2,2014,2014
+Souad Faress,Dosh khaleen High Priestess,2,2016,2016
+Gerald Lepkowski,Zanrush,2,2016,2016
+Emily Diamond,King's Landing Whore,2,2011,2011
+Hannah John-Kamen,Ornela,2,2016,2016
+Annette Tierney,Young Nan,2,2016,2016
+Kevin Keenan,Kurleket,2,2011,2011
+Donagh Deeney,Winterfell Shepherd,2,2012,2012
+Anthony Morris,The Tickler,2,2012,2012
+Hattie Gotobed,Ghita,2,2015,2015
+Sam Coleman,Wyllis,2,2016,2016
+Chris Reilly,Morgan,2,2012,2014
+Cliff Barry,Greizhen mo Ullhor,2,2013,2013
+Lois Winstone,Mole's Town Whore,2,2014,2014
+Paul Caddell,Jacks,2,2012,2012
+Sam Callis,Goldcloak,2,2012,2012
+Reg Wayment,King's Landing Rioter #1,2,2012,2012
+Gary Oliver,Ternesio Terys,2,2014,2015
+Fola Evans-Akingbola,Moro's Wife #2,2,2016,2016
+Michael Shelford,Master Torturer,2,2013,2013
+Emilio Doorgasingh,Great Master #1,2,2014,2014
+Sebastian Croft,Young Ned Stark,2,2016,2016
+Fergus Leathem,Young Rodrik Cassel,2,2016,2016
+Antonia Christophers,Mhaegen,2,2011,2012
+Will Fortune,NA,2,2014,2015
+Lu Corfield,Mole's Town Madam,2,2014,2014
+Aiden Condron,Lannister Captain,2,2012,2012
+Aidan Crowe,Quent,2,2012,2012
+Matteo Elezi,Young Benjen Stark,2,2016,2016
+Angelique Fernandez,Dothraki Widow #1,2,2016,2016
+David Sheehan,Stark Guard,2,2012,2012
+Glen Barry,Mummer #2,2,2016,2016
+Pixie Le Knot,Kayla,2,2013,2014
+Conor Watters,Manservant,2,2014,2014
+Brendan O'Rourke,Mummer #3,2,2016,2016
+Andrew Wilde,Tobho Mott,2,2011,2012
+Ross Anderson-Doherty,Mummer #4,2,2016,2016
+Michael Hayes,Night's Watchman #1,2,2016,2016
+Wuese Houston-Jibo,Dothraki Widow #2,2,2016,2016
+Timothy Gibbons,Willem Lannister,2,2013,2013
+Jason McLaughlin,Baratheon Soldier #2,2,2015,2015
+Steve Cash,Loyal Night's Watchman #1,2,2016,2016
+Tony Flynn,Night's Watchman #2,2,2016,2016
+Michael Hooley,Night's Watchman,2,2016,2016
+Em Scribbler,The Mother,2,2015,2015
+Dennis Stokes,Male Prostitute,2,2012,2012
+Rebecca Scott,The Maiden,2,2015,2015
+Rosie Ruthless,The Crone,2,2015,2015
+Nathanael Saleh,Arthur,2,2016,2016
+Jesse Magee,Little Bird #4,2,2016,2016
+Michael Nevin,Little Bird #3,2,2016,2016
+Lucy Gallagher,Little Bird #6,2,2016,2016
+Iona Clarke,Little Bird #5,2,2016,2016
+Fionn Kernan,Little Bird #7,2,2016,2016
+Struan Rodger,Three-Eyed Raven,2,2014,2014
+Kelly Long,Joyeuse Frey,2,2011,2013
+Sophie Reid,Tyrell Lady,2,2013,2013
+Tommy Dunne,Tommy,2,2011,2014
+Vinnie McCabe,Leo Lefford,2,2011,2011
+Ryan McKenna,Willis Wode,2,2011,2011
+Robert Render,Ironborn #2,2,2011,2016
+Ian McShane,Brother Ray,1,2016,2016
+Birgitte Hjort Sørensen,Karsi,1,2015,2015
+Stephen Swift,Singing Lannister Soldier,1,2012,2012
+Barry McGovern,Dying Man,1,2014,2014
+Zachary Baharov,Loboda,1,2015,2015
+Danny Kirrane,Stark Soldier,1,2017,2017
+Gordon Mahon,Imry Florent,1,2012,2012
+Rory Mullen,Captain of the Bolton Archers,1,2016,2016
+Joseph Quinn,Koner,1,2017,2017
+James Doran,Mandon Moore,1,2012,2012
+Mark Tankersley,Bolton General,1,2016,2016
+Sarita Piotrowski,Jhiqui,1,2011,2011
+Kieran Cunningham,Baratheon Officer,1,2012,2012
+David Birkbeck,Northman Rider,1,2016,2016
+Samantha Spiro,Melessa Tarly,1,2016,2016
+Breige Roche,Winterfell Local,1,2017,2017
+Bronson Webb,Will,1,2011,2011
+Michael Grennell,Captain of the Archers,1,2012,2012
+Ross O'Hennessy,Lord of Bones,1,2015,2015
+Paul Garrett,Northman Archer,1,2016,2016
+Eamonn Keenan,Stark Soldier,1,2017,2017
+Rhodri Hosking,Mycah,1,2011,2011
+John Standing,Jon Arryn,1,2011,2011
+Mark Killeen,Mero,1,2013,2013
+Rob Ostlere,Waymar Royce,1,2011,2011
+Ramon Tikaram,Prendahl na Ghezn,1,2013,2013
+Philip Arditti,Goatherd,1,2014,2014
+Dermot Keaney,Gared,1,2011,2011
+Lalor Roddy,Catspaw Assassin,1,2011,2011
+Oliver Ford Davies,Maester Cressen,1,2012,2012
+Kenneth Hadley,Septon,1,2013,2013
+Rhodri Miles,First Mate,1,2014,2014
+Julian Firth,Citadel Maester,1,2017,2017
+Conor Delaney,Lannister Guard,1,2011,2011
+Jodhi May,Maggy,1,2015,2015
+Margaret Jackman,The Waif's Disguise,1,2016,2016
+Philip O'Sullivan,Citadel Maester,1,2017,2017
+Alexandra Dowling,Roslin Frey,1,2013,2013
+Paola Dionisotti,Anya Waynwood,1,2014,2014
+Samantha McEwan,Bathhouse Prostitute,1,2014,2014
+Morgan C. Jones,Braavosi Captain,1,2015,2015
+Darrell D'Silva,Ironborn #1,1,2016,2016
+Kevin Horsham,Westerosi Trader,1,2016,2016
+Melanie Liburd,Street Red Priestess Meereen,1,2016,2016
+Laurence Spellman,Goldcloak,1,2017,2017
+Sean Buckley,Old Man,1,2013,2013
+Talitha Luke-Eardley,Yunkai'i Whore,1,2013,2013
+Michael Hough,Ironborn in Skiff,1,2014,2014
+Tim Loane,Black Armored White Walker,1,2015,2015
+Michael Yare,Slaver,1,2015,2015
+Louis Rolston,Bear Island Maester,1,2016,2016
+Wilf Scolding,Rhaegar Targaryen,1,2017,2017
+Simon Lowe,Wine Merchant,1,2011,2011
+A.J. Kennedy,Frey Guard,1,2013,2013
+Marko Jelic,Prisoner,1,2014,2014
+Gianpiero Cognoli,Great Master #1,1,2015,2015
+James McKenzie Robinson,Joss,1,2015,2015
+Katie Alexander Thom,Volantene Whore #1,1,2016,2016
+Tom Chadbon,High Septon Maynard,1,2017,2017
+Rania Zouari,Pentoshi Servant,1,2011,2011
+David Verrey,High Septon,1,2012,2012
+Grace Hendy,Merry Frey,1,2013,2013
+Anthony Boyle,Bolton Guard,1,2014,2014
+Grahame Fox,Ralf Kenning,1,2014,2014
+Nicholas Boulton,Pit Announcer,1,2015,2015
+Rila Fukushima,Street Red Priestess Volantis,1,2015,2015
+Raymond Keane,Winter Town Man,1,2015,2015
+Jed Murray,Northman Rioter,1,2016,2016
+Sam Redford,Tully Bannerman,1,2016,2016
+David Rintoul,Aerys Targaryen,1,2016,2016
+Graham Charles,Varly,1,2011,2011
+Alan Paris,Goldcloak,1,2011,2011
+Pat McGrath,Hog Farmer,1,2013,2013
+Philip Philmar,Elder Meereen Slave,1,2014,2014
+Bobby Asghar,Great Master #2,1,2015,2015
+Michael Patrick,Wildling Rioter,1,2016,2016
+Freddie Stroma,Dickon Tarly,1,2016,2016
+Ben Fox,Crossroads Inn Patron,1,2017,2017
+Luke Wilson Hanley,Stark Soldier,1,2017,2017
+Guy Oliver-Watts,Lannister General,1,2017,2017
+Ed Sheeran,Lannister Soldier,1,2017,2017
+Adele Smyth-Kennedy,'Littlefinger' Winterfell Spy,1,2017,2017
+Spencer Wilding,White Walker #2,1,2011,2011
+Sam Mackay,Lannister Guard,1,2012,2012
+Jonathan Ryan,Drowned Priest,1,2012,2012
+Steve Wilson,Theon's Master of Hounds,1,2012,2012
+Trevor Allan Davies,Fennesz,1,2014,2014
+Jazzy De Lisser,Tansy,1,2014,2014
+Gian Sanghera-Warren,Goatherd's Son,1,2014,2014
+Lacy Moore,Braavosi Madam,1,2015,2015
+Gary Pillai,Merchant Captain,1,2015,2015
+Peter Silverleaf,Great Master #3,1,2015,2015
+Rebecca Benson,Talla Tarly,1,2016,2016
+Dylan Edwards,King's Landing Boaster,1,2016,2016
+Matt Faris,Lannister Soldier,1,2016,2016
+Yousef 'Joe' Sweid,Ash,1,2016,2016
+Mark Roper,Crossroads Inn Patron,1,2017,2017
+Thomas Turgoose,Lannister Soldier,1,2017,2017
+Amira Ghazalla,Dothraki Crone,1,2011,2011
+Jeffrey O'Brien,Jaremy Rykker,1,2011,2011
+Claire Wright,Wight Wildling Girl,1,2011,2011
+Amy Dawson,Captain's Daughter,1,2012,2012
+David Fynn,Rennick,1,2012,2012
+Oddie Braddell,Wendel Manderly,1,2013,2013
+Mackenzie Dean,NA,1,2014,2014
+Jody Halse,Adrack Humble,1,2014,2014
+Stuart Martin,Morgan's Friend,1,2014,2014
+Jack Hickey,Young Braavosi,1,2015,2015
+Davor Jozinovic,Great Master #4,1,2015,2015
+Christian Vit,Lead Dornish Guard,1,2015,2015
+Rubi Ali,Moro's Wife #1,1,2016,2016
+Michael Heath,Kesh,1,2016,2016
+Neil Keery,Ironborn at Brothel,1,2016,2016
+Ross McKinney,Riddell,1,2016,2016
+Billy Postlethwaite,Lannister Soldier,1,2017,2017
+Niall Cusack,Joss,1,2011,2011
+Portelli Paul,Drunk Patron,1,2011,2011
+Tyrone McElhennon,Torrhen Karstark,1,2012,2012
+Will Champion,Drummer,1,2013,2013
+Ivan Peric,Great Master #5,1,2015,2015
+Ania Bukstein,Kinvara,1,2016,2016
+Steve Love,Steve,1,2016,2016
+Heidi Romanova,Volantene Whore #2,1,2016,2016
+Raül Tortosa,Tyrell Bannerman,1,2016,2016
+Adam Slynn,Lannister Guard,1,2017,2017
+Phil Dixon,Tomard,1,2011,2011
+Stephen Don,Stiv,1,2011,2011
+Edward Mercieca,King's Landing Baker,1,2011,2011
+Nikovich Sammut,Goldcloak #1,1,2011,2011
+Neill Fleming,Karstark Soldier #1,1,2012,2012
+Jer O'Leary,Lordsport Dockhand,1,2012,2012
+Bryan Quinn,Bolton Soldier,1,2013,2013
+Octavia Selena Alexandru,Leaf,1,2014,2014
+Richard Doubleday,Vance Corbray,1,2014,2014
+Robert Goodman,Valyrian Slave,1,2014,2014
+James McHale,Axell Florent,1,2014,2014
+Martin Walsh,Innkeeper,1,2014,2014
+Hadi Kermani,Great Master #6,1,2015,2015
+Brahm Gallagher,Lannister Soldier,1,2016,2016
+Tamer Hassan,Khal Forzho,1,2016,2016
+Danielle Claire Jenner,Volantene Whore #3,1,2016,2016
+Seamus Kelly,Goldcloak #2,1,2011,2011
+Marcus Lamb,Night's Watchman,1,2011,2011
+Tristan Mercieca,Little Bird,1,2011,2011
+Paddy Rocks,Knight of House Lynderly,1,2011,2011
+Gina Moxley,Old Woman Prisoner,1,2012,2012
+Elisa Lasowski,Mirelle,1,2013,2013
+Harold James McMullan,Sorcerer,1,2013,2013
+Karl Jackson,Unsullied,1,2014,2014
+Daniel Rabin,Lord Blackmont,1,2014,2014
+Tonci Banov,Great Master #7,1,2015,2015
+Mishaël Lopes Cardozo,Brothel Guard,1,2015,2015
+Simon Norbury,Faith Militant #1,1,2015,2015
+Ella Hughes,Volantene Whore #4,1,2016,2016
+Adam Turns,The Waif's Disguise,1,2016,2016
+Colin Carnegie,Stevron Frey,1,2011,2011
+Barrington Cullen,Eon Hunter,1,2011,2011
+Ken Fletcher,Gerald,1,2012,2012
+Michael Power,Boat Commander,1,2013,2013
+Jon Thor Birgisson,Musician #1,1,2014,2014
+Darren Kent,Goatherd,1,2014,2014
+Tim Landers,Kegs,1,2014,2014
+Ian Lloyd Anderson,Derek,1,2015,2015
+Elizabeth Cadwallader,Lollys Stokeworth,1,2015,2015
+David Garlick,Despondent Man,1,2015,2015
+Jack Olohan,Faith Militant #2,1,2015,2015
+Zoi Gorman,Volantene Whore #5,1,2016,2016
+Bryan McCaugherty,Ryger Rivers,1,2011,2011
+Barry John O'Connor,Night's Watch Deserter,1,2011,2011
+Marko Juraga,King's Landing Rioter #2,1,2012,2012
+Darren Killeen,Colen of Greenpools,1,2012,2012
+Emmet O'Riabhaigh,Wounded Lannister,1,2012,2012
+Edward Tudor-Pole,Protestor,1,2012,2012
+Aisling Jarrett-Gavin,Margaery's Handmaiden,1,2013,2013
+Ciaran O'Grady,Frey Soldier #1,1,2013,2013
+Joe Purcell,Riverlands Traveller,1,2013,2013
+Orri P. Dyrason,Musician #2,1,2014,2014
+Cormac McDonagh,Black Jack Bulwer,1,2014,2014
+Dez McMahon,Ser Endrew Tarth,1,2014,2014
+Aeryn Walker,Craster's Wife #2,1,2014,2014
+Jonathan Byrne,Brant,1,2015,2015
+Cedric Henderson,Faceless Man,1,2015,2015
+Matt McArdle,Sellsword #1,1,2015,2015
+Slavko Sobin,Second Son,1,2015,2015
+Wayne Foskett,Rickard Stark,1,2016,2016
+Billy King,Ironborn Abusing a Volantene Whore,1,2016,2016
+Paul Ward,Poisoned Frey,1,2017,2017
+Stephen Grech,King's Landing Urchin,1,2011,2011
+David Michael Scott,Beric Dondarrion,1,2011,2011
+Donal Gallery,Tortured Prisoner,1,2012,2012
+Duncan Lacroix,Karstark Soldier #2,1,2012,2012
+Rea Separovic,King's Landing Rioter #3,1,2012,2012
+Max Barber,Orphan Kid,1,2013,2013
+Shaun Blaney,Karstark Lookout,1,2013,2013
+Joe Cassidy,King's Landing Tailor,1,2013,2013
+Michael Liebmann,Frey Soldier #2,1,2013,2013
+Georg Holm,Musician #3,1,2014,2014
+Cheryl Lester,Craster's Wife #3,1,2014,2014
+Finbar Lynch,Farmer Hamlet,1,2014,2014
+Andy Moore,Mully,1,2014,2014
+Nikola Bace,Tyrell Guard,1,2015,2015
+Eddie Elks,Sellsword #2,1,2015,2015
+Danny O'Conner,Lannister Guard #1,1,2015,2015
+Paddy Wallace,Lead Kingsguard,1,2015,2015
+Luke Roberts,Arthur Dayne,1,2016,2016
+Brendan Morrissey,Frey Lord,1,2017,2017
+Patrick FitzSymons,Reginald Lannister,1,2012,2012
+Derek Reid,Brothel Customer,1,2012,2012
+Stephanie Blacker,Violet,1,2013,2013
+Alex Mileman,Fruit Vendor,1,2013,2013
+Will Rastall,Tyrell Servant,1,2013,2013
+Lottie Steer,Warlock,1,2013,2013
+Raymond Griffiths,King Joffrey Baratheon Dwarf,1,2014,2014
+Alice Hewkin,Wight,1,2014,2014
+Samuel Paul Small,Little Bird,1,2014,2014
+Gwyneth Keyworth,Clea,1,2015,2015
+Garry Mountaine,Brusco,1,2015,2015
+Allon Sylvain,Foreign Merchant,1,2015,2015
+Eddie Eyre,Gerold Hightower,1,2016,2016
+Richard Laing,Lannister Captain,1,2016,2016
+Deon Lee-Williams,Iggo,1,2016,2016
+Eamonn Draper,Sick Maester,1,2017,2017
+Steve Blount,Rickard Karstark,1,2011,2011
+Rhys Howells,Unsullied,1,2013,2013
+Jon Freeman,NA,1,2014,2014
+Kristen Gillespie,Whore #1,1,2014,2014
+Maxwell Laird,King Stannis Baratheon Dwarf,1,2014,2014
+Dylan McDonough,Sailor,1,2015,2015
+Emina Muftic,Beggar Woman,1,2015,2015
+J.J. Murphy,Denys Mallister,1,2015,2015
+Nell Williams,Young Cersei Lannister,1,2015,2015
+Elie Haddad,Khal Brozho,1,2016,2016
+Gerry O'Brien,Jonos Bracken,1,2011,2011
+Moe Dunford,Stark Messenger,1,2012,2012
+Patrick O'Kane,Jaqen's Disguise,1,2012,2012
+Maro Drobnic,Desmond Crakehall,1,2013,2013
+Jem Wall,Guymon,1,2014,2014
+Dean Whatton,King Renly Baratheon Dwarf,1,2014,2014
+Rob Brockman,NA,1,2015,2015
+Nigel O'Neill,Baratheon General,1,2015,2015
+Isabella Steinbarth,Melara Hetherspoon,1,2015,2015
+Kate Anthony,Braavosi Woman #1,1,2016,2016
+Andrei Claude,Khal Rhalko,1,2016,2016
+Cordelia Hill,Young Lyanna Stark,1,2016,2016
+Patrick Ryan,Knight of House Frey,1,2011,2011
+Simon Stewart,Lannister Messenger,1,2011,2011
+Mark Byatt,Lannister Torturer,1,2012,2012
+Pat Mooney,Northern Lord,1,2012,2012
+Michael Shaeffer,Stark Soldier,1,2012,2012
+Marin Tudor,Yunkai'i Slave #1,1,2013,2013
+George Appleby,King Robb Stark Dwarf,1,2014,2014
+Gabrielle Dempsey,Innkeeper's Daughter,1,2014,2014
+Raewyn Lippert,Olly's Mother,1,2014,2014
+Tom Fava,Street Tough #1,1,2015,2015
+Maggie Hayes,Septa Moelle,1,2015,2015
+Marcos James,White Rat,1,2015,2015
+Daniel Johnson,NA,1,2015,2015
+Ollie Kram,Anara,1,2015,2015
+Frank Hvam,Citadel Maester,1,2016,2016
+Darius Dar Khan,Khal Qorro,1,2016,2016
+Sally Mortemore,Braavosi Woman #2,1,2016,2016
+Kate Dempsey,Serving Girl,1,2017,2017
+B.J. Hogg,Addam Marbrand,1,2011,2011
+Matthew Scurfield,Vayon Poole,1,2011,2011
+Roxanna Kadyrova,Yunkai'i Slave #2,1,2013,2013
+Gary Lightbody,Bolton Soldier,1,2013,2013
+Krysten Coombs,King Balon Greyjoy Dwarf,1,2014,2014
+Maria Sikavica,Whore #2,1,2014,2014
+Richard Fitzwell,NA,1,2015,2015
+Allan Gildea,Strong Sam Stone,1,2015,2015
+Mary Jordan,Septa Scolera,1,2015,2015
+Derek Lord,Mallister Supporter,1,2015,2015
+Gemita Samarra,Brea,1,2015,2015
+Susie Kelly,Masha Heddle,1,2011,2011
+Faolan Morgan,Stark Guard,1,2011,2011
+Frank O'Sullivan,Night's Watch Messenger,1,2011,2011
+Terry Byrne,Septon,1,2012,2012
+Kristina Krepela,Qartheen Woman,1,2012,2012
+Michelle Costello,Craster's Wife,1,2013,2013
+Jamal Ouarraq,Yunkai'i Slave #3,1,2013,2013
+Paul Kennedy,Eyrie Guard,1,2015,2015
+Irma Mali,Whore,1,2015,2015
+Ben Yates,Brothel Customer,1,2015,2015
+Ruairí Heading,Night's Watchman #2,1,2016,2016
+Ciaran McMahon,Lannister Soldier,1,2012,2012
+El Hasani,Yunkai'i Slave #4,1,2013,2013
+Lisa Walsh,Craster's Younger Wife,1,2013,2013
+Stephen Brown,Sparring Boy,1,2015,2015
+Winston Davis,Street Tough #2,1,2015,2015
+Aifric O'Donnell,Aya,1,2015,2015
+Ella Tweed,Brothel Child #1,1,2015,2015
+Andrew Bryan,Bolton Officer,1,2016,2016
+Chris Gallagher,Lannister Scout,1,2011,2011
+Wren Ros Elliot-Sloan,Rhaego,1,2012,2012
+Mustapha Mekanassi,Yunkai'i Slave #5,1,2013,2013
+Joe Hewetson,Maester Helliweg,1,2015,2015
+Isabelle Jones,Brothel Child #2,1,2015,2015
+Irene Kelleher,Inn Waitress,1,2015,2015
+Fiach Kunz,Lannister Guard #2,1,2015,2015
+Sabrina Bartlett,Handmaid,1,2016,2016
+Tristan Heanue,Bolton Soldier,1,2016,2016
+James Lecky,Ironborn #3,1,2016,2016
+Rick Burn,Stark Guard,1,2011,2011
+Kylie Harris,Genna,1,2013,2013
+Curtis-Lee Ashqar,Son of the Harpy,1,2015,2015
+David Fennelly,Baratheon Soldier #1,1,2015,2015
+Michael Johnston,Lannister Guard #3,1,2015,2015
+Sabina Arthur,Meereenese Homeless Mother,1,2016,2016
+Dermot Ward,Tommen's Attendant,1,2016,2016
+Hugo Culverhouse,Red Keep Stableboy,1,2011,2011
+Patrick J Molloy,Night's Watchman,1,2014,2014
+Jonathan Gunning,Dwarf Hunter #1,1,2015,2015
+Colin Azzopardi,Maester Caleotte,1,2016,2016
+Aron Hegarty,Tommen's Manservant,1,2016,2016
+Natalia Lee,Chella,1,2012,2012
+Tristan McConnell,Gordy,1,2015,2015
+Alan McKee,Dwarf Hunter #2,1,2015,2015
+Sean Blowers,Wyman Manderly,1,2016,2016
+Gordon Fulton,Lord Portan,1,2012,2012
+Trixiebell Harrowell,Farmer's Daughter,1,2014,2014
+Laurence O'Fuarain,Simpson,1,2015,2015
+Tom Varey,Cley Cerwyn,1,2016,2016
+Marko Cindric,Tourney Herald,1,2012,2012
+Mark Drake,Tortured Slave,1,2013,2013
+Ralph Clemente,Woodcutter,1,2015,2015
+Oliver Stockwell,Dothraki Man Having Sex,1,2016,2016
+Anthony John Crocker,King's Landing Drunkard,1,2015,2015
+Derek Horsham,Great Master #2,1,2014,2014
+Kirsty Nicholls,King's Landing Whore,1,2015,2015
+Joshua Sher,Meereen Slave,1,2014,2014
+Munro Graham,King's Landing Flasher #1,1,2015,2015
+Ben Kelly,King's Landing Flasher #2,1,2015,2015
+Rebecca Van Cleave,Cersei Body Double,1,2015,2015
+Alee Fauzi,Lannister Guard,1,2019,2019
+Jack Hudson,Wight,1,2019,2019
+Adam Quigley-Nixon,Lannister Guard,1,2019,2019
+Marc Rissmann,Harry Strickland,1,2019,2019
+Michael Stuart,Night's Watch Officer,17,2013,2016
+Graeme Peacock,Baratheon Soldier,11,2012,2017
+Bobby Marno,Night's Watch,10,2015,2017
+James Bleakney,Baratheon Soldier,9,2013,2016
+Tyrone Kearns,Brotherhood Member,6,2013,2016
+Mark Quigley,Baratheon Soldier,6,2014,2016
+Frederick Walker,Lannister General,6,2014,2016
+Frédéric André,Knight,4,2011,2016
+Darran Watt,Soldier,4,2012,2013
+Logan Bruce,Ironborn,4,2013,2017
+Jessica Odell,Wildling,4,2015,2016
+Breifne McCusker,Glover Troop 2016,4,2016,2016
+Hugh David Irvine,Frey Wedding Guest,3,2012,2014
+Kristy Robinson,Craster's Wife,3,2012,2014
+Desmond Edwards,Slaver,3,2014,2016
+Warren Blair,Wildling,3,2014,2015
+Kristy Robinson,Craster's Wife,3,2014,2015
+Cillean Campbell,Lannister Lord,3,2015,2016
+Frank Cannon,King's Landing Nobleman,3,2015,2016
+Andrew McClay,Jon Snow Soldier,3,2015,2016
+Juan Carlos Martínez Antuña,Meereen Guard,3,2017,2017
+Mark Coney,Lord Galbart Glover,2,2011,2011
+Boyd Rankin,Mikken,2,2011,2011
+Aaron Archer,Nobleman,2,2012,2016
+Darragh O'Connor,Frey Wedding Guest,2,2013,2016
+Laurence Doherty,Frey Wedding Guest,2,2013,2014
+Gerald McMullan,Night's Watch,2,2014,2017
+Daniel Naprous,Dothraki Rider,2,2014,2017
+Bill Buchanan,Gold Cloak,2,2014,2016
+Richard Buick,Faith Militant,2,2014,2015
+Niamh Lennon,King's Landing Handmaiden,2,2014,2014
+Marion McDowell,Mole's Town Whore,2,2014,2014
+Calvin Warrington-Heasman,Burning Lannister,2,2015,2017
+Derek Dubery,Brothel Patron #5,2,2015,2016
+Simon Millar,Tully Soldier,2,2015,2016
+Jessica Stevenson,Wildling,2,2015,2015
+Kevin-Barry Brown,Bolton Infantry,2,2016,2016
+Michael William Burns,Kingsland Taverner,2,2016,2016
+Micheal Fitzgerald,Glover General,2,2016,2016
+Tamsin Greene Barker,Braavosi Theatre Server,2,2016,2016
+Kiran Shah,Braavosi Theatre Sound Artist,2,2016,2016
+Hugh Yeaman,Meereen Guard,2,2016,2016
+Michael Byrch,Captured Wight,2,2017,2017
+Marc Aquilina,Dothraki,1,2011,2011
+Phil Barnhill,Baratheon Guard,1,2011,2011
+Elizabeth Barrett,Lady Maege,1,2011,2011
+Owen Dickey,Winterfell Beekeeper,1,2011,2011
+Ivailo Dimitrov,Mago,1,2011,2011
+Melissa Reid,Peasant,1,2011,2011
+James Tolcher,Lannister Guard,1,2011,2011
+Robert Yates,King's Guard,1,2011,2011
+Robert Atkinson,Baratheon Archer,1,2012,2012
+Robert Boroje,Malakho,1,2012,2012
+Noel Cecil,Wight,1,2012,2012
+Hugh Irvine,Lannister Archer,1,2012,2012
+Paul Kealyn,Weasel,1,2012,2012
+Sarah Mac Keever,Selyse Baratheon,1,2012,2012
+Filip Lozic,Young Nobleman,1,2012,2012
+Sarah MacKeever,Selyse Baratheon,1,2012,2012
+Paul Monahan,Stark Guard,1,2012,2012
+Ginger A. Taylor,Craster's Daughter,1,2012,2012
+Bart the Bear,The Bear,1,2013,2013
+Matt Butcher,Riverrun Nobleman,1,2013,2013
+Katie Creaven,Marianne Frey,1,2013,2013
+Maeve Guy,Derwa Frey,1,2013,2013
+Kevin McCann,Musician,1,2013,2013
+Susie McWilliams,Freya Frey,1,2013,2013
+Christopher Newman,Hoster Tully,1,2013,2013
+Niall O'Donnell,Bathhouse Boy,1,2013,2013
+Rachel Puchkoff,Khaleesi Handmaiden #1,1,2013,2013
+Mustapha Rachidi,Yunkai Citizen,1,2013,2013
+Omar Youssef,Dothraki,1,2013,2013
+Neil Baltus,Noble Man,1,2014,2014
+Emma Bryant,Waitress,1,2014,2014
+Joe Claflin,Cooper,1,2014,2014
+Bryan Cogman,Dragonstone waiter,1,2014,2014
+Paul Herbert,Wedding Guest,1,2014,2014
+Mark Kelvin Ryan,Frey Serving Boy,1,2014,2014
+Stella Lutz,Noble Lady,1,2014,2014
+Neil Marshall,Night's Watch Archer,1,2014,2014
+Jack Roth,Donnel Hill,1,2014,2014
+Sigur Rós,Wedding Band,1,2014,2014
+C.C. Smiff,Wedding Guest,1,2014,2014
+Adam Basil,Strong Fighter,1,2015,2015
+Roman Beguns,Fighter,1,2015,2015
+Brann Dailor,Wildling,1,2015,2015
+Rob de Groot,Fighter,1,2015,2015
+Jenny Edgar,Wildling Archer,1,2015,2015
+Cassie Friel,Wight,1,2015,2015
+Brent Hinds,Wildling,1,2015,2015
+Charles Jarman,Pit Fighter,1,2015,2015
+Danko Jordanov,Wilding Gladiator,1,2015,2015
+Tomislav Jurcec,Ft. Corpse Child,1,2015,2015
+Bill Kelliher,Wildling,1,2015,2015
+Christopher Kinkead,Night's Watch Recruit,1,2015,2015
+Chelsea Mainwaring,Wildling Archer,1,2015,2015
+Barrie Martin,Wight,1,2015,2015
+Daniel Tartaglia,Merchant's crew #1,1,2015,2015
+Royd Tolkien,Wildling,1,2015,2015
+Raquel Arraes,Volantene Whore,1,2016,2016
+Kristina Baskett,Child of the Forest #1,1,2016,2016
+Rachelle Beinart,Child of the Forest #2,1,2016,2016
+Elynia Betts,Tavern Maid,1,2016,2016
+Susan Christie,Volantene Whore,1,2016,2016
+Milly Burke Cunningham,Frey Daughter,1,2016,2016
+Philip Early,Stark Soldier,1,2016,2016
+Patrick Kelly,Karstark Lead Archer,1,2016,2016
+Jose Mellinas,'That's Right' Man,1,2016,2016
+Casey Michaels,Child of the Forest #3,1,2016,2016
+Peter Rooney,Karstark Soldier,1,2016,2016
+Sophia Smith,Volantene Whore,1,2016,2016
+Gary Wales,Healtor Troop,1,2016,2016
+Leo Woodruff,Howland Reed,1,2016,2016
+Charlie Barrett,Dothraki Rider,1,2017,2017
+Carolina Castellano,Woman in King's Landing,1,2017,2017
+Dan Euston,Wildling,1,2017,2017
+Christian Gimse,Lannister Guard,1,2017,2017
+Seán McGillicuddy,Lannister Soldier,1,2017,2017
+Brendan McGivern,Night's Watch,1,2017,2017
+Ross Moneypenny,Tyrell guard,1,2017,2017
+Douglas Robson,Burning Lannister,1,2017,2017
+Jim Stanes,Lannister Map Painter,1,2017,2017
+Noah Syndergaard,Lannister Spearman,1,2017,2017

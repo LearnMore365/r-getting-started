@@ -1,0 +1,384 @@
+actor,person,episodes,start_year,end_year
+Johnny Galecki,Leonard Hofstadter,264,2006,2018
+Jim Parsons,Sheldon Cooper,264,2006,2018
+Kaley Cuoco,Penny,263,2007,2018
+Simon Helberg,Howard Wolowitz,263,2007,2018
+Kunal Nayyar,Raj Koothrappali,263,2007,2018
+Melissa Rauch,Bernadette Rostenkowski,193,2009,2018
+Mayim Bialik,Amy Farrah Fowler,187,2010,2018
+Kevin Sussman,Stuart Bloom,76,2009,2018
+Carol Ann Susi,Debbie Wolowitz,40,2007,2017
+John Ross Bowie,Barry Kripke,23,2009,2018
+Laura Spencer,Emily Sweeney,17,2014,2017
+Wil Wheaton,Wil Wheaton,16,2009,2018
+Brian George,Dr. V.M. Koothrappali,15,2007,2018
+Laurie Metcalf,Mary Cooper,14,2007,2018
+Christine Baranski,Dr. Beverly Hofstadter,13,2009,2018
+Aarti Mann,Priya Koothrappali,12,2010,2011
+Brian Posehn,Bert Kibbler,12,2013,2018
+Ian Scott Rudolph,Captain Sweatpants,12,2009,2014
+Alice Amter,Mrs. Koothrappali,10,2007,2015
+Sara Gilbert,Leslie Winkle,9,2007,2016
+Brian Thomas Smith,Zack Johnson,9,2010,2017
+Kate Micucci,Lucy,8,2013,2017
+Pamela Adlon,Halley Wolowitz,8,2016,2018
+Stephen Hawking,Stephen Hawking,7,2012,2017
+Bob Newhart,Arthur Jeffries,6,2013,2018
+Casey Sander,Mike Rostenkowski,6,2012,2015
+Dean Norris,Colonel Richard Williams,6,2016,2017
+Michael J. Massimino,Mike Massimino,6,2012,2014
+Vernee Watson,Althea,6,2006,2016
+Joshua Malina,President Siebert,6,2011,2018
+Mark Harelik,Dr. Eric Gablehauser,5,2007,2008
+Regina King,Janine Davis,5,2013,2017
+Alessandra Torresani,Claire,5,2016,2017
+Pasha D. Lychnikoff,Dimitri,5,2012,2012
+Ed Lieberman,Announcer,5,2010,2018
+Robert Clotworthy,Announcer,5,2008,2015
+Margo Harshman,Alex Jensen,4,2012,2013
+Keith Carradine,Wyatt,4,2010,2018
+Lauren Lapkus,Denise,4,2018,2018
+Sara Rue,Dr. Stephanie Barnett,3,2008,2008
+Brian Patrick Wade,Kurt,3,2007,2009
+LeVar Burton,LeVar Burton,3,2011,2014
+Stephen Merchant,Dave Gibbs,3,2015,2015
+Riki Lindhome,Ramona Nowitzki,3,2008,2017
+Kimberly Brooks,Computer,3,2007,2017
+Ira Flatow,Ira Flatow,3,2009,2017
+Swati Kapila,Ruchi,3,2017,2017
+Marcus Folmar,Guard,3,2010,2016
+Jerry O'Connell,"George Cooper, Jr.",3,2018,2018
+Rati Gupta,Anu,3,2018,2018
+James Hong,Chen,2,2007,2008
+Erin Allin O'Reilly,Cheryl,2,2007,2008
+Analeigh Tipton,Analeigh Tipton,2,2008,2015
+Molly Morgan,Bethany,2,2009,2015
+Neil deGrasse Tyson,Neil deGrasse Tyson,2,2010,2018
+Katee Sackhoff,Katee Sackhoff,2,2009,2010
+Elena Campbell-Martinez,Maria,2,2008,2015
+David Trice,Waiter,2,2010,2013
+Kevin Brief,Glen,2,2010,2012
+Dakin Matthews,Santa,2,2012,2014
+Stephen Root,Dan,2,2014,2014
+Kathy Bates,Mrs. Fowler,2,2018,2018
+Katie Leclerc,Emily,2,2011,2017
+Josh Brener,Dale,2,2011,2013
+Bill Nye,Bill Nye,2,2013,2018
+Jim Meskimen,Doctor,2,2015,2015
+Michelle Arthur,Mrs. Petrescu,2,2016,2018
+Annie O'Donnell,Mrs. Fowler,2,2010,2014
+Alex Ball,Waiter,2,2013,2014
+Judd Hirsch,Dr. Alfred Hofstadter,2,2016,2016
+Courtney Henggeler,Missy Cooper,2,2008,2018
+Teller,Larry Fowler,2,2018,2018
+Sarayu Blue,Lalita Gupta,1,2007,2007
+Brooke D'Orsay,Christy Vanderbilt,1,2007,2007
+Talbott Lin,Chinese Leonard,1,2008,2008
+DJ Qualls,Toby Loobenfeld,1,2008,2008
+Charlie Sheen,Charlie Sheen,1,2008,2008
+Octavia Spencer,Octavia,1,2008,2008
+Michael Trucco,Dr. David Underhill,1,2008,2008
+Andrew W. Walker,Mike,1,2008,2008
+Zachary Abel,Todd,1,2009,2009
+Lewis Black,Professor Crawley,1,2009,2009
+Elizabeth Bogush,Dr. Catherine Millstone,1,2009,2009
+Summer Glau,Summer Glau,1,2009,2009
+Jodi Lyn O'Keefe,Mikayla,1,2009,2009
+Eliza Dushku,FBI Special Agent Angela Page,1,2010,2010
+Judy Greer,Dr. Elizabeth Plimpton,1,2010,2010
+Stan Lee,Stan Lee,1,2010,2010
+Frank Maharajh,Venkatesh Koothrappali,1,2010,2010
+Julio Oscar Mechoso,Officer Hackett,1,2010,2010
+Steve Wozniak,Steve Wozniak,1,2010,2010
+Rachel Cannon,Patty,1,2007,2007
+Allen Nabors,Doug,1,2007,2007
+Howard Chan,Chinese Sheldon,1,2008,2008
+Michael Hyatt,Charlotte,1,2008,2008
+Austin Lee,Dennis Kim,1,2008,2008
+Judith Moreland,Jan,1,2008,2008
+Travis Schuldt,Eric,1,2008,2008
+Valerie Azlynn,Alicia,1,2009,2009
+Sarah Buehler,Sarah,1,2009,2009
+Will Deutsch,Jeremy,1,2009,2009
+Jason Mesches,Denny,1,2009,2009
+Oliver Muirhead,Professor Laughlin,1,2009,2009
+George Smoot,Dr. George Smoot,1,2009,2009
+Ally Maki,Joyce Kim,1,2010,2010
+Danica McKellar,Abby,1,2010,2010
+Artie O'Daly,Young Man,1,2010,2010
+Yeardley Smith,Sandy,1,2010,2010
+Jessica Walter,Mrs. Latham,1,2011,2011
+Ryan Cartwright,Cole,1,2012,2012
+Sierra Edwards,Summer,1,2007,2007
+Treisa Gary,Waitress,1,2007,2007
+Emma Degerstedt,Emma,1,2008,2008
+Adam Gregor,Dmitri,1,2008,2008
+Jennifer Hale,News Announcer,1,2008,2008
+Emily Happe,Kathy O'Brien,1,2008,2008
+Ronald Hunter,Dan,1,2008,2008
+Tyler Jon Olson,Blaine,1,2008,2008
+Samantha Potter,Model,1,2008,2008
+Livia Treviño,Lourdes,1,2008,2008
+Travis Davis,Ground Controller,1,2009,2009
+Jane Galloway Heitz,Mildred,1,2009,2009
+Andy Mackenzie,Skeeter,1,2009,2009
+Jen Drohan,Martha,1,2010,2010
+Steve Paymer,Judge J. Kirby,1,2010,2010
+George Takei,George Takei,1,2010,2010
+Steven Yeun,Sebastian,1,2010,2010
+Lance Barber,Jimmy Speckerman,1,2011,2011
+Blake Berris,Kevin,1,2011,2011
+Rick Fox,Glenn,1,2011,2011
+William Stanford Davis,Dry Cleaner,1,2012,2012
+Jim Turner,Reverend White,1,2012,2012
+Todd Eric Andrews,Dr. Gunderson,1,2013,2013
+Tom Fonss,Student,1,2013,2013
+Troy Winbush,Paramedic,1,2013,2013
+James Earl Jones,James Earl Jones,1,2014,2014
+Josh Peck,Jesse,1,2014,2014
+Tania Raymonde,Yvette,1,2014,2014
+Billy Bob Thornton,Dr. Oliver Lorvis,1,2014,2014
+Noel De Souza,Older Indian Man,1,2015,2015
+Tate Ellington,Mitchell,1,2015,2015
+Sara Erikson,Gwen,1,2015,2015
+Melissa Tang,Mandy Chow,1,2015,2015
+Maria Canals-Barrera,Issabella,1,2016,2016
+Michael Croner,Andre,1,2016,2016
+Josh Zuckerman,Marty,1,2016,2016
+Beth Behrs,Nell,1,2018,2018
+Peter MacNicol,Dr. Robert Wolcott,1,2018,2018
+Kimberly Jeppson,Vicki,1,2007,2007
+Sherry Weston,Instructor,1,2007,2007
+Chuck Carter,Stan,1,2008,2008
+Mark Hames,Tom,1,2008,2008
+Sandra Marquez,Woman,1,2008,2008
+Jade Zdanow,Rebecca,1,2009,2009
+Eric André,Joey,1,2010,2010
+Lauri Johnson,Mrs. Gunderson,1,2010,2010
+Ajgie Kirkland,Louie,1,2010,2010
+Phil Abrams,Dr. Bernstein,1,2011,2011
+Arnold Chun,Ho-Jun,1,2011,2011
+Tiffany Dupont,Angela,1,2011,2011
+Courtney Ford,Alice,1,2011,2011
+Ashley Austin Morris,Laura,1,2011,2011
+Stacey Travis,Sandy,1,2011,2011
+Buzz Aldrin,Buzz Aldrin,1,2012,2012
+Chriselle Almeida,Lakshmi Choudry,1,2012,2012
+Nick Clifford,Phil,1,2012,2012
+Meagen Fay,Mrs. Rostenkowski,1,2012,2012
+Becky O'Donohue,Siri,1,2012,2012
+Jonathan Schmock,Jonathan,1,2012,2012
+Karl T. Wright,Jimmy,1,2012,2012
+Matt Battaglia,Officer Reynolds,1,2013,2013
+Barak Hardley,Pizza Delivery Guy,1,2013,2013
+Morgan Hewitt,Lizzy,1,2013,2013
+Ayumi Iizuka,Scientist,1,2013,2013
+Sophie Oda,Grace,1,2013,2013
+Carrie Fisher,Carrie Fisher,1,2014,2014
+Eric Petersen,Eric,1,2014,2014
+Malcolm Foster Smith,Roy,1,2014,2014
+Gilda Stratton,Flight Attendant,1,2014,2014
+Yoshi Barrigas,Trent Monaco,1,2015,2015
+Michael Dempsey,Security Guard,1,2015,2015
+Stephanie Escajeda,Cindy,1,2015,2015
+Nathan Fillion,Nathan Fillion,1,2015,2015
+Kelli Goss,Chelsea,1,2015,2015
+Elon Musk,Elon Musk,1,2015,2015
+Kevin Smith,Kevin Smith,1,2015,2015
+Jane Kaczmarek,Dr. Gallo,1,2016,2016
+Christopher Lloyd,Theodore,1,2016,2016
+June Squibb,Meemaw,1,2016,2016
+Tiffany Daniels,Clerk,1,2017,2017
+Joel Murray,Doug,1,2017,2017
+Dana L. Wilson,Dr. Sanders,1,2017,2017
+Neil Gaiman,Neil Gaiman,1,2018,2018
+Bill Gates,Bill Gates,1,2018,2018
+Walton Goggins,Oliver,1,2018,2018
+Rachna Khatau,Kathleen,1,2018,2018
+James Maslow,Bartender,1,2018,2018
+Ellie Reed,Jenna,1,2018,2018
+Cynthia Holloway,Roberta,1,2007,2007
+Sergio Enrique,Son,1,2008,2008
+Charlotte Newhouse,Joy,1,2010,2010
+Whitney Avalon,Elsie,1,2011,2011
+Lanny Joon,Officer Shin,1,2011,2011
+Sharon Omi,Nurse in Biohazard Suit,1,2011,2011
+Tom Yi,Dispatcher,1,2011,2011
+Janelle Marra,Claire,1,2012,2012
+Peter Onorati,Angelo,1,2012,2012
+Jadon Sand,Aaron,1,2012,2012
+Lynn Philip Seibel,Professor Rothman,1,2012,2012
+Christine Corpuz,Woman,1,2013,2013
+Piper Mackenzie Harris,Girl #1,1,2013,2013
+Riccardo LeBron,Tom,1,2013,2013
+Angela Sargeant,Lana,1,2013,2013
+Aaron Takahashi,Scientist,1,2013,2013
+Michael Araujo,Stadium Announcer,1,2014,2014
+Kimberly Hebert Gregory,Ms. Davora,1,2014,2014
+Christopher Neiman,Dr. Dreyfus,1,2014,2014
+Michael Reetz,Photographer,1,2014,2014
+Fernando Rivera,Salesperson,1,2014,2014
+Mark Barrett,Security Guard #2,1,2015,2015
+Matt Bennett,Josh Wolowitz,1,2015,2015
+Megan Heyn,Natalie,1,2015,2015
+Max Mittelman,Tech Support,1,2015,2015
+Phoebe Neidhardt,Casting Assistant,1,2015,2015
+Michael Rapaport,Kenny Fitzgerald,1,2015,2015
+Craig Welzbacher,Candidate #1,1,2015,2015
+Wayne Wilderson,Travis,1,2015,2015
+Blake Anderson,Trevor,1,2016,2016
+Declan Churchill Carter,Five Year Old,1,2016,2016
+Jim Holmes,Tim,1,2016,2016
+Brandon W. Jones,The Flash,1,2016,2016
+April Bowlby,Rebecca,1,2017,2017
+Marissa Cuevas,Danielle,1,2017,2017
+Michael Patrick McGill,Police Officer,1,2017,2017
+Doug Morency,Stranger,1,2017,2017
+Eric Normington,Man,1,2017,2017
+Lynn Andrews,Margaret,1,2018,2018
+Mark Berry,Pit Boss,1,2018,2018
+Laura Cerón,Marta,1,2018,2018
+Parvesh Cheena,Marcus,1,2018,2018
+Edward James Gage,Nicholas,1,2018,2018
+Caleb Pierce,Jess,1,2018,2018
+Eddie Shin,Dr. Park,1,2018,2018
+Robert Wu,Tam Nguyen,1,2018,2018
+Brian Greene,Brian Greene,1,2011,2011
+Chris Reed,Todd Zarnecki,1,2011,2011
+Dusan Brown,Jeremy,1,2012,2012
+Ken Lerner,Dr. Schneider,1,2012,2012
+Craig Gellis,Car Thief #1,1,2013,2013
+Diamond White,Girl #2,1,2013,2013
+David Barrera,Officer Hernandez,1,2014,2014
+Monica Garcia,Maria,1,2014,2014
+Rod Keller,Wardrobe Person,1,2014,2014
+Kara Luiz,Jeanie,1,2014,2014
+Phyllis Timbes,Voicemail,1,2014,2014
+Steve Valentine,Kenneth,1,2014,2014
+Paul Willson,Professor Sharpe,1,2014,2014
+Max Adler,Zombie,1,2015,2015
+Louise Claps,Receptionist,1,2015,2015
+Patrika Darbo,Grace,1,2015,2015
+Jeff Jingle,Alien,1,2015,2015
+Kurt Koehler,Candidate #2,1,2015,2015
+Adam Nimoy,Adam Nimoy,1,2015,2015
+Angela Relucio,Hostess,1,2015,2015
+Rena Strober,Caller,1,2015,2015
+Katherine Von Till,Tech Support Recording,1,2015,2015
+Jeff Witzke,Moviegoer,1,2015,2015
+Josh Banday,Nolan,1,2016,2016
+Creagen Dow,Glenn the Maitre D',1,2016,2016
+Amanda Payton,Ainsley,1,2016,2016
+Brooke Baumer,Denise,1,2017,2017
+Susan Chuang,Dr. Harris,1,2017,2017
+Cat Hammons,Nurse,1,2017,2017
+Elka Rodriguez,Rose Lady,1,2017,2017
+Jeffrey Cade Ross Brown,Toby,1,2018,2018
+Evan Charest,Croupier,1,2018,2018
+Patrick Daniel,Grant,1,2018,2018
+Eileen Galindo,Letty,1,2018,2018
+Mark Hamill,Mark Hamill,1,2018,2018
+Alison Martin,Andrea,1,2018,2018
+Bob Stephenson,Wendell,1,2018,2018
+Jan Hoag,Lillian,1,2012,2012
+Amy Tolsky,Joan,1,2012,2012
+Frank Alvarez,Car Thief #2,1,2013,2013
+Briana Cuoco,Gretchen,1,2013,2013
+Dawson Fletcher,Justin,1,2013,2013
+Anil Margsahayam,Man,1,2014,2014
+Casper Smart,Travis,1,2014,2014
+Arshad Aslam,Candidate #3,1,2015,2015
+Rebecca Ann Johnson,Attractive Red Head,1,2015,2015
+Mark Maitre,Alien #2,1,2015,2015
+Shane Blades,Customer,1,2016,2016
+Bryan Safi,Daniel,1,2016,2016
+Katey Sagal,Susan,1,2016,2016
+Adam West,Adam West,1,2016,2016
+Nicole J. Butler,Clerk,1,2017,2017
+Joey Rich,Man,1,2017,2017
+George Wyner,Dr. Zane,1,2017,2017
+Luis Aldana,Greg,1,2018,2018
+D'Kia Anderson,Hostess,1,2018,2018
+Hermie Castillo,Colin,1,2018,2018
+Matt Knudsen,Waiter,1,2018,2018
+Megan McGown,Cynthia,1,2018,2018
+Ciara Renée,Sunny Morrow,1,2018,2018
+David Theune,Dr. Graybel,1,2018,2018
+Endre Hules,Russian Mission Control,1,2012,2012
+John Mendoza,Chauffeur,1,2012,2012
+Rick Gifford,Guy,1,2013,2013
+Tonja Kahlens,Woman,1,2014,2014
+Kaliko Kauahi,Marta,1,2014,2014
+Tucker Albrizzi,Christopher,1,2016,2016
+Giovanni Bejarano,Bellman,1,2018,2018
+Kikéy Castillo,Leslie,1,2018,2018
+Seth Coltan,Earl,1,2018,2018
+Robert Noble,Older Gentleman,1,2014,2014
+Jareb Dauplaise,Jeff,1,2016,2016
+Jack McBrayer,Randall,1,2016,2016
+Andy Taylor Kim,Tour Guide,1,2018,2018
+Lexie Contursi,Beautiful Young Woman,1,2014,2014
+Owen Thayer,Lonely Larry,7,2009,2013
+Jesse Heiman,Comic Book Store Customer,5,2010,2013
+Erin Pickett,Cafeteria Patron,2,2010,2010
+Cindera Che,Ballroom Dancer,2,2011,2011
+Rachel Steele,Cafeteria Patron,2,2013,2013
+Iris Bahr,Gilda,1,2006,2006
+Amanda Walsh,Katie,1,2006,2006
+Craig Duda,Delivery Man,1,2007,2007
+Joel Brooks,Professor Goldfarb,1,2008,2008
+John Druzba,Restaurant Patron,1,2008,2008
+William Ngo,Chinese International Grad Student,1,2008,2008
+Alex Strahle,Kid Playing Guitar,1,2008,2008
+Matt Barr,Mike,1,2009,2009
+Lori Anne Shields,Raj's Bar Lady,1,2009,2009
+Jannette Bloom,Woman,1,2010,2010
+Chadney Brewer,Jedi,1,2010,2010
+Ren Hanami,Singer,1,2010,2010
+Janet Hill,Janet Hill,1,2010,2010
+Jade Holden,Girl in Line at Park,1,2010,2010
+Kristen Kimmick,Movie Goer,1,2010,2010
+Michael Shawn McCracken,Gorn,1,2010,2010
+Lisa Randall,Extra,1,2010,2010
+Drew Annen,Cheesecake Factory Diner,1,2011,2011
+Richard Bernard,Wealthy Benefactor,1,2011,2011
+Jeff Blum,Waiter,1,2011,2011
+Louis Fasanaro,Movie Goer,1,2011,2011
+Julie Michaels,Professor,1,2011,2011
+Crystal the Monkey,Ricky the Smoking Monkey,1,2011,2011
+Brent Spiner,Brent Spiner,1,2011,2011
+Johnny Vinton,Bollywood Dancer,1,2011,2011
+Derek Blankenship,Guy in Club,1,2012,2012
+Howie Mandel,Howie Mandel,1,2012,2012
+Stephane Nicoli,Guy at the Movies,1,2012,2012
+Leonard Nimoy,Mr. Spock,2,2012,2015
+Zack Sonnenberg,Bachelor Party Attendee,1,2012,2012
+Meli Alexander,Cheesecake Factory Patron,1,2013,2013
+Paul Michael Bair,Employee,1,2013,2013
+Seaonna Chanadet,Eye Rolling Girl Student,1,2013,2013
+Tiffany Giddens,Waitress,1,2013,2013
+Ian Reed Kesler,Paramedic #1,1,2013,2013
+Zack Scott,Party Guest,1,2013,2013
+Ashley Shewell,Cafeteria Student,1,2013,2013
+Chris Smith,Matt,1,2013,2013
+Bryan Stamp,Library Graduate Student,1,2013,2013
+Franklin J. Sterns,Drunk Scientist,1,2013,2013
+Adora Soleil Bricher,Mini Bernadette,1,2014,2014
+Cici Leah Campbell,Bar Patron,1,2014,2014
+Alberto D'Fonseca,Bar Patron,1,2014,2014
+Daniel Levitin,Professor in Cafeteria,1,2014,2014
+Bruce Holman,Airport Pedestrian,1,2015,2015
+Lisbeth Kingsley,Audition Girl,1,2015,2015
+Ellen DeGeneres,Ellen DeGeneres,1,2016,2016
+Forest Baker,Comic Con Collector,1,2017,2017
+Efrain Gomez,Employee,1,2017,2017
+Priya Gopalan,Bar Patron,1,2017,2017
+Marcello Aurelio Lanfranchi,Airline Passenger,1,2017,2017
+Christopher Baskerville,Restaurant Patron,1,2018,2018
+Jeanelle Marie Cruz,Bike Messenger,1,2018,2018
+Chelsea Hamill,Wedding Guest in Red Dress,1,2018,2018
+Gene Hatcher,Guy in Comic Book Store,1,2018,2018
+Tom Michelsen,Comic Book Store patron,1,2018,2018
+Louis C. Robins,Tour Group Member,1,2018,2018
+Arne Starr,Dead Detective,1,2018,2018
+Stephen John Williams,Cafe Patron,1,2018,2018
