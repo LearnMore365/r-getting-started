@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="yay.html">
-<link rel="next" href="next-steps.html">
+<link rel="prev" href="visualizing-data.html">
+<link rel="next" href="analyzing-data.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -180,18 +180,178 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="analyzing-data" class="section level1">
-<h1><span class="header-section-number">6</span> Analyzing Data</h1>
-<p>maybe we show a t-test here - bt no special packages</p>
+<div id="yay" class="section level2">
+<h2><span class="header-section-number">5.1</span> Yay</h2>
+<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb27-1" data-line-number="1"><span class="kw">library</span>(tidyverse)</a>
+<a class="sourceLine" id="cb27-2" data-line-number="2">bbt &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;static/data/BTT.csv&quot;</span>)</a>
+<a class="sourceLine" id="cb27-3" data-line-number="3"></a>
+<a class="sourceLine" id="cb27-4" data-line-number="4">bbt <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb27-5" data-line-number="5"><span class="st">  </span><span class="kw">filter</span>(episodes <span class="op">&gt;</span><span class="st"> </span><span class="dv">10</span>) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb27-6" data-line-number="6"><span class="st">  </span>pander<span class="op">::</span><span class="kw">pander</span>()</a></code></pre></div>
+<table>
+<colgroup>
+<col width="25%" />
+<col width="30%" />
+<col width="13%" />
+<col width="15%" />
+<col width="15%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">actor</th>
+<th align="center">person</th>
+<th align="center">episodes</th>
+<th align="center">start_year</th>
+<th align="center">end_year</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Johnny Galecki</td>
+<td align="center">Leonard Hofstadter</td>
+<td align="center">264</td>
+<td align="center">2006</td>
+<td align="center">2018</td>
+</tr>
+<tr class="even">
+<td align="center">Jim Parsons</td>
+<td align="center">Sheldon Cooper</td>
+<td align="center">264</td>
+<td align="center">2006</td>
+<td align="center">2018</td>
+</tr>
+<tr class="odd">
+<td align="center">Kaley Cuoco</td>
+<td align="center">Penny</td>
+<td align="center">263</td>
+<td align="center">2007</td>
+<td align="center">2018</td>
+</tr>
+<tr class="even">
+<td align="center">Simon Helberg</td>
+<td align="center">Howard Wolowitz</td>
+<td align="center">263</td>
+<td align="center">2007</td>
+<td align="center">2018</td>
+</tr>
+<tr class="odd">
+<td align="center">Kunal Nayyar</td>
+<td align="center">Raj Koothrappali</td>
+<td align="center">263</td>
+<td align="center">2007</td>
+<td align="center">2018</td>
+</tr>
+<tr class="even">
+<td align="center">Melissa Rauch</td>
+<td align="center">Bernadette Rostenkowski</td>
+<td align="center">193</td>
+<td align="center">2009</td>
+<td align="center">2018</td>
+</tr>
+<tr class="odd">
+<td align="center">Mayim Bialik</td>
+<td align="center">Amy Farrah Fowler</td>
+<td align="center">187</td>
+<td align="center">2010</td>
+<td align="center">2018</td>
+</tr>
+<tr class="even">
+<td align="center">Kevin Sussman</td>
+<td align="center">Stuart Bloom</td>
+<td align="center">76</td>
+<td align="center">2009</td>
+<td align="center">2018</td>
+</tr>
+<tr class="odd">
+<td align="center">Carol Ann Susi</td>
+<td align="center">Debbie Wolowitz</td>
+<td align="center">40</td>
+<td align="center">2007</td>
+<td align="center">2017</td>
+</tr>
+<tr class="even">
+<td align="center">John Ross Bowie</td>
+<td align="center">Barry Kripke</td>
+<td align="center">23</td>
+<td align="center">2009</td>
+<td align="center">2018</td>
+</tr>
+<tr class="odd">
+<td align="center">Laura Spencer</td>
+<td align="center">Emily Sweeney</td>
+<td align="center">17</td>
+<td align="center">2014</td>
+<td align="center">2017</td>
+</tr>
+<tr class="even">
+<td align="center">Wil Wheaton</td>
+<td align="center">Wil Wheaton</td>
+<td align="center">16</td>
+<td align="center">2009</td>
+<td align="center">2018</td>
+</tr>
+<tr class="odd">
+<td align="center">Brian George</td>
+<td align="center">Dr. V.M. Koothrappali</td>
+<td align="center">15</td>
+<td align="center">2007</td>
+<td align="center">2018</td>
+</tr>
+<tr class="even">
+<td align="center">Laurie Metcalf</td>
+<td align="center">Mary Cooper</td>
+<td align="center">14</td>
+<td align="center">2007</td>
+<td align="center">2018</td>
+</tr>
+<tr class="odd">
+<td align="center">Christine Baranski</td>
+<td align="center">Dr. Beverly Hofstadter</td>
+<td align="center">13</td>
+<td align="center">2009</td>
+<td align="center">2018</td>
+</tr>
+<tr class="even">
+<td align="center">Aarti Mann</td>
+<td align="center">Priya Koothrappali</td>
+<td align="center">12</td>
+<td align="center">2010</td>
+<td align="center">2011</td>
+</tr>
+<tr class="odd">
+<td align="center">Brian Posehn</td>
+<td align="center">Bert Kibbler</td>
+<td align="center">12</td>
+<td align="center">2013</td>
+<td align="center">2018</td>
+</tr>
+<tr class="even">
+<td align="center">Ian Scott Rudolph</td>
+<td align="center">Captain Sweatpants</td>
+<td align="center">12</td>
+<td align="center">2009</td>
+<td align="center">2014</td>
+</tr>
+</tbody>
+</table>
+<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb28-1" data-line-number="1">bbt <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb28-2" data-line-number="2"><span class="st">  </span><span class="kw">filter</span>(episodes <span class="op">&gt;</span><span class="st"> </span><span class="dv">10</span>) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb28-3" data-line-number="3"><span class="st">  </span><span class="kw">arrange</span>(episodes) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb28-4" data-line-number="4"><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">person =</span> <span class="kw">factor</span>(person, <span class="kw">unique</span>(person))) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb28-5" data-line-number="5"><span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(<span class="dt">x =</span> person, <span class="dt">y =</span> episodes)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb28-6" data-line-number="6"><span class="st">  </span><span class="kw">geom_col</span>() <span class="op">+</span></a>
+<a class="sourceLine" id="cb28-7" data-line-number="7"><span class="st">  </span><span class="kw">coord_flip</span>()</a></code></pre></div>
+<p><img src="getting-started_files/figure-html/unnamed-chunk-23-1.png" width="672" /></p>
 
 </div>
+<!-- </div> -->
             </section>
 
           </div>
         </div>
       </div>
-<a href="yay.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="next-steps.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="visualizing-data.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="analyzing-data.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

@@ -1,3 +1,25 @@
 # Visualizing Data
 
 here we show the `ggplot2` and mayne sneak peak at `plotly`
+
+
+## Yay
+
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+bbt <- read_csv("static/data/BTT.csv")
+
+bbt %>% 
+  filter(episodes > 10) %>% 
+  pander::pander()
+
+bbt %>% 
+  filter(episodes > 10) %>% 
+  arrange(episodes) %>% 
+  mutate(person = factor(person, unique(person))) %>% 
+  ggplot(aes(x = person, y = episodes)) +
+  geom_col() +
+  coord_flip()
+```
+
+
