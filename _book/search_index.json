@@ -1,5 +1,5 @@
 [
-["index.html", "R you ready? Preface", " R you ready? Reto Wyss, Greg Martin 2018-10-27 Preface Figure .: RStudio (This is the caption) \\[ a = \\sum \\] In this book R Core Team (2018) and Wickham (2017) Definition . Here is my theorem. Example . This is my example This is a custom block. We can style it however we want. References "],
+["index.html", "R you ready? Preface", " R you ready? Reto Wyss, Greg Martin 2018-10-31 Preface Figure .: RStudio (This is the caption) \\[ a = \\sum \\] In this book R Core Team (2018) and Wickham (2017) Definition . Here is my theorem. Example . This is my example This is a custom block. We can style it however we want. References "],
 ["setup.html", "1 Setup", " 1 Setup In this chapter bla bla (promise) (preview) "],
 ["installing-r-and-rstudio.html", "1.1 Installing R and RStudio", " 1.1 Installing R and RStudio R https://cran.r-project.org/mirrors.html RStudio https://www.rstudio.com/products/rstudio/download/ "],
 ["working-with-r-in-rstudio.html", "2 Working with R in RStudio", " 2 Working with R in RStudio In this chapter bla bla (promise) (preview) Explain Quadrants I think we could create a section for each of the important windows/tabs. Also we should make every step as actionable as possible. Testing image Figure 2.1: RStudio (This is the caption) "],
