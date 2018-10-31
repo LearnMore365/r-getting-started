@@ -22,6 +22,8 @@ knitr::include_graphics("static/images/RStudio.png", dpi = NA)
 
 > [Action] Show arthimetic ops here
 
+!! [Greg comment] This section looks good. Suggest a bigger font. 
+
 Now that you are all set up we want to dive straight into using R. To get the
 most out of this tutorial you should try to run the code yourself on the
 console in RStudio. You can think of R as a calculator - a very powerful
