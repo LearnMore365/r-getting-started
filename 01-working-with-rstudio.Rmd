@@ -1,28 +1,28 @@
 # Working with R in RStudio
 
-In this chapter bla bla (promise)
+RStudio is an integraged development evironment (IDE). This means it offers a 
+lot of tools to make working with the R programming language easier. We will 
+explain the most important tools while also introducing you to the basics of 
+the R programming lanugage. 
 
-(preview)
+When you open up RStudio you see a couple of windows and each window has a couple of tabs. We are not going to go into all the tabs here, but we will explain and explore the most important ones. The most important tabs to get familiar with are:
 
-Explain Quadrants 
+1. Console, where you can interactively run code
+2. Source, where you can edit files
+3. Environment, where you can check on the state of your analysis
+4. History, where you can check what code you've ran
+5. Files, where you manage your folders and files during analysis
+6. Help, where you can read documentation
+7. Viewer, where you can view plots or other graphical or interactive elements of your analysis
 
-> I think we could create a section for each of the important windows/tabs. Also we should make every step as actionable as possible.
-
-
-Testing image
 
 ```{r rstudio-view, echo=FALSE, fig.cap='RStudio (This is the caption)', out.width='100%'}
 knitr::include_graphics("static/images/RStudio.png", dpi = NA)
 ```
 
-## Files, Viewer, Help (br)
-
 
 ## The Console (bl)
 
-> [Action] Show arthimetic ops here
-
-!! [Greg comment] This section looks good. Suggest a bigger font. 
 
 Now that you are all set up we want to dive straight into using R. To get the
 most out of this tutorial you should try to run the code yourself on the
@@ -57,21 +57,20 @@ c(4, 2) %*% c(2, 4)   # Matrix-multiplication
 ```
 
 
-## Script (tl)
+## Source (tl)
+
+
+* Source on Save
+* Auto Complete
+* Explain variables
 
 
 > [Action] Show how code (arithmetic can be written in a script file and then be executed on the console)
 
 Top left is the script window
 
-## History and Environment (tr)
 
-> [Action] Show how to assign variables
-
-ow, let's define our first variable. We will call it `my_first_variable`.
-
-
-### Creating variables
+### Creating variables {-}
 
 
 ```{r}
@@ -92,7 +91,7 @@ b <- 10
 a * b
 ```
 
-### Vectors
+### Vectors {-}
 
 
 Vectors are a data-structure. They can hold multiple values at once and they can be referenced by a single variable. To create a vector you will use `c()`.
@@ -113,3 +112,44 @@ Performing arithmetics on vector is analogous to atomic values.
 my_first_vector * 10
 ```
 
+
+Shorthand for vectors
+
+```{r, results='hold'}
+1:10
+1:5 * 2
+```
+
+
+## History 
+
+
+* Learn what a function is
+* This is a short section
+* 
+
+### Functions
+
+
+$$\sum_{i = 1}^{n} i = \frac{n(n - 1)}{2}$$
+
+```{r}
+sum(1:10)
+```
+
+
+* To Source {-}
+
+
+* To Console {-}
+
+
+## Files
+
+
+## Help
+
+
+## Environment (tr)
+
+Whenever you tell R to run some command, R will execute that command in an environment.

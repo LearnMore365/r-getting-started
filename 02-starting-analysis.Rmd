@@ -23,6 +23,10 @@ getwd()
 
 ## Packages
 
+
+CRAN / github
+
+
 > We can prime this by telling people about the R community in the introduction
     
 installing and loading (maybe show updating in RStudio)    

@@ -4,8 +4,11 @@ In this chapter bla bla (promise)
 
 (preview)
 
-## Installing R and RStudio
+## Installing R 
 
 * R https://cran.r-project.org/mirrors.html
-* RStudio https://www.rstudio.com/products/rstudio/download/
 
+
+## Installing RStudio
+
+* RStudio https://www.rstudio.com/products/rstudio/download/
