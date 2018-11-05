@@ -1,6 +1,16 @@
 # Setup
 
+
+## What is R and why.
+
+
+
+
 In this chapter bla bla (promise)
+
+
+
+
 
 (preview)
 
