@@ -31,6 +31,8 @@ calculator. R supports the five basic arithmetic operations you are familiar
 with and three more you might not yet have seen. The operators for addition,
 subtraction and multiplication are self explanatory.
 
+<iframe width="100%" height="420" src="https://www.youtube.com/embed/tCrMPBq8P_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ```{r, results='hold'}
 4 + 5    # Addition
 10 - 1   # Subtraction
@@ -48,7 +50,7 @@ I prefer the first way.
 > Maybe cut this part
 
 Now, let's have a look at the three less common operator. They are modulo,
-whole number division and matrix-multiplication. test change
+whole number division and matrix-multiplication.
 
 ```{r, results='hold'}
 43 %% 7               # Modulo
@@ -113,6 +115,11 @@ my_first_vector * 10
 ```
 
 
+## Environment (tr)
+
+Whenever you tell R to run some command, R will execute that command in an environment.
+
+
 Shorthand for vectors
 
 ```{r, results='hold'}
@@ -131,13 +138,6 @@ Shorthand for vectors
 ### Functions
 
 
-$$\sum_{i = 1}^{n} i = \frac{n(n - 1)}{2}$$
-
-```{r}
-sum(1:10)
-```
-
-
 * To Source {-}
 
 
@@ -149,7 +149,3 @@ sum(1:10)
 
 ## Help
 
-
-## Environment (tr)
-
-Whenever you tell R to run some command, R will execute that command in an environment.
