@@ -1,24 +1,69 @@
 # Setup
 
+R is free software. 
 
-## What is R and why.
-
-
-
-
-In this chapter bla bla (promise)
-
-
-
-
-
-(preview)
+We are going to walk you through the process _step-by-step_.
 
 ## Installing R 
 
-* R https://cran.r-project.org/mirrors.html
+You can install R by going to the [CRAN](https://cran.r-project.org/mirrors.html) website.
 
+```{r setup-install-r-cran, echo=FALSE, fig.cap='The CRAN homepage', out.width='100%'}
+knitr::include_graphics("static/images/setup-install-r-cran.png", dpi = img_dpi)
+```
+
+Click the link for your operating system. 
+
+
+### Installing R on Widows
+
+lorem ipsum
+
+### Installing R on Mac OS X
+
+
+lorem ipsum
 
 ## Installing RStudio
 
+R itself does not come with a nice graphical interface. More text
+
+In this section you will be guided through the installation process and then be ready to start your project.
+
+We will use RStudio to
+
 * RStudio https://www.rstudio.com/products/rstudio/download/
+
+## Creating A New Project
+
+You should always create a project when you work on an analysis with RStudio. It helps you organize your analysis and takes care of low-level stuff. 
+
+In the top left, click on _File_ and then select _New Project..._ and you should have a window pop up.
+
+```{r rstudio-new-project, echo=FALSE, fig.cap='This is the new Project Window', out.width='100%'}
+knitr::include_graphics("static/images/rstudio-new-project.png", dpi = img_dpi)
+```
+
+Now, select _New Directory_ and then _New Project_.
+
+
+```{r rstudio-new-project-type, echo=FALSE, fig.cap='Choose the type of project.', out.width='100%'}
+knitr::include_graphics("static/images/rstudio-new-project-type.png", dpi = img_dpi)
+```
+
+
+Give your project a name (`r-course`) and tell it where to save the project. Your R-project will not be a single file but a folder.
+
+```{r rstudio-new-project-dir, echo=FALSE, fig.cap='Name and Location', out.width='100%'}
+knitr::include_graphics("static/images/rstudio-new-project-dir.png", dpi = img_dpi)
+```
+
+
+That's it you have created your first RStudio R-project.
+
+```{r rstudio-new-project-done, echo=FALSE, fig.cap='Hurray!', out.width='100%'}
+knitr::include_graphics("static/images/rstudio-new-project-done.png", dpi = img_dpi)
+```
+
+
+You can load projects via _Recent Projects_ under _File_.

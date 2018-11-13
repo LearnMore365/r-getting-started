@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="working-with-r-in-rstudio.html">
-<link rel="next" href="source-environment.html">
+<link rel="prev" href="the-console-bl.html">
+<link rel="next" href="and-functions-tr.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -195,34 +195,57 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="the-console-bl" class="section level2">
-<h2><span class="header-section-number">2.1</span> The Console (bl)</h2>
-<p>Now that you are all set up we want to dive straight into using R. The console is where you can interactively run commands. You can think of R as a calculator - a very powerful calculator. R supports the five basic arithmetic operations.</p>
-<iframe width="100%" height="420" src="https://www.youtube.com/embed/tCrMPBq8P_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="dv">4</span> <span class="op">+</span><span class="st"> </span><span class="dv">5</span>    <span class="co"># Addition</span></a>
-<a class="sourceLine" id="cb1-2" data-line-number="2"><span class="dv">10</span> <span class="op">-</span><span class="st"> </span><span class="dv">1</span>   <span class="co"># Subtraction</span></a>
-<a class="sourceLine" id="cb1-3" data-line-number="3"><span class="dv">3</span> <span class="op">*</span><span class="st"> </span><span class="dv">3</span>    <span class="co"># Multiplication</span></a>
-<a class="sourceLine" id="cb1-4" data-line-number="4"><span class="dv">27</span> <span class="op">/</span><span class="st"> </span><span class="dv">3</span>   <span class="co"># Division</span></a>
-<a class="sourceLine" id="cb1-5" data-line-number="5"><span class="dv">3</span> <span class="op">**</span><span class="st"> </span><span class="dv">2</span>   <span class="co"># Power</span></a>
-<a class="sourceLine" id="cb1-6" data-line-number="6"></a>
-<a class="sourceLine" id="cb1-7" data-line-number="7"><span class="co"># Standard operator presedence and parentheses rules apply</span></a>
-<a class="sourceLine" id="cb1-8" data-line-number="8">(<span class="dv">35</span> <span class="op">+</span><span class="st"> </span><span class="dv">8</span>) <span class="op">*</span><span class="st"> </span><span class="dv">2</span> <span class="op">**</span><span class="st"> </span>(<span class="dv">10</span> <span class="op">/</span><span class="st"> </span><span class="dv">2</span>) <span class="op">-</span><span class="st"> </span><span class="dv">39</span></a></code></pre></div>
-<pre><code>## [1] 9
-## [1] 9
-## [1] 9
-## [1] 9
-## [1] 9
-## [1] 1337</code></pre>
-<p>There are two ways of writing the power operator <code>**</code> and <code>^</code>. Personally, I prefer the first way.</p>
+<div id="source-environment" class="section level2">
+<h2><span class="header-section-number">2.2</span> Source &amp; Environment</h2>
+<p>Most of the time you’ll want to document the commands you run. You can create a new file by clicking File -&gt; New File -&gt; R Script File or by pressing Cmd + Shift + N.</p>
+<p>Create a new file and add the following line.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="kw">print</span>(<span class="st">&quot;Hello from R!&quot;</span>)</a></code></pre></div>
+<p>Now, save the file by either clicking the floppy drive symbol (or pressing Cmd + S). Give then file the name <code>hello.R</code></p>
+<p>Clicking the <em>Source</em> button (or pressing Cmd + Shift + S) on the top right border will make R exectute the code in the file and your console will show something along these lines.</p>
+<pre><code>&gt; source(&#39;~/r-course/hello.R&#39;, echo=TRUE)
+
+&gt; print(&quot;Hello from R!&quot;)
+[1] &quot;Hello from R!&quot;</code></pre>
+<p>Add the artirhmetic expression to the file.</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="kw">print</span>(<span class="st">&quot;Hello from R!&quot;</span>)</a>
+<a class="sourceLine" id="cb5-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb5-3" data-line-number="3"><span class="dv">53</span> <span class="op">-</span><span class="st"> </span><span class="dv">11</span></a></code></pre></div>
+<p>Bring your cursor to the end of the first line after <code>print(&quot;Hello from R!&quot;)</code> and press Cmd + Enter, this will run (source) just this one line. The cursor will automaticall jump to the end of the line after the next command. If you press Cmd + Enter again it will run next line.</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="kw">print</span>(<span class="st">&quot;Hello from R!&quot;</span>)</a></code></pre></div>
+<pre><code>## [1] &quot;Hello from R!&quot;</code></pre>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="dv">53</span> <span class="op">-</span><span class="st"> </span><span class="dv">11</span></a></code></pre></div>
+<pre><code>## [1] 42</code></pre>
+<div id="creating-variables" class="section level3 unnumbered">
+<h3>Creating variables</h3>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb10-1" data-line-number="1">my_first_variable &lt;-<span class="st"> </span><span class="dv">42</span></a></code></pre></div>
+<p>When you enter this on your R console in RStudio nothing will happen. We have told R to store the number 42 in a variable and we call this specific variable <code>my_first_variable</code>. To retrieve the value of our variable we just type the variable name and hit enter.</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb11-1" data-line-number="1">my_first_variable</a></code></pre></div>
+<pre><code>## [1] 42</code></pre>
+<p>Arithmetic operations work on variables just like they do on literal numbers.</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb13-1" data-line-number="1">a &lt;-<span class="st"> </span><span class="dv">5</span></a>
+<a class="sourceLine" id="cb13-2" data-line-number="2">b &lt;-<span class="st"> </span><span class="dv">10</span></a>
+<a class="sourceLine" id="cb13-3" data-line-number="3">a <span class="op">*</span><span class="st"> </span>b</a></code></pre></div>
+<pre><code>## [1] 50</code></pre>
+</div>
+<div id="vectors" class="section level3 unnumbered">
+<h3>Vectors</h3>
+<p>Vectors are a data-structure. They can hold multiple values at once and they can be referenced by a single variable. To create a vector you will use <code>c()</code>.</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb15-1" data-line-number="1">my_first_vector &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">42</span>, <span class="dv">5</span>, <span class="dv">10</span>)</a></code></pre></div>
+<p>You can have a glimpse at the values in your vector by typing its name.</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb16-1" data-line-number="1">my_first_vector</a></code></pre></div>
+<pre><code>## [1] 42  5 10</code></pre>
+<p>Performing arithmetics on vector is analogous to atomic values.</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb18-1" data-line-number="1">my_first_vector <span class="op">*</span><span class="st"> </span><span class="dv">10</span></a></code></pre></div>
+<pre><code>## [1] 420  50 100</code></pre>
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="working-with-r-in-rstudio.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="source-environment.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="the-console-bl.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="and-functions-tr.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

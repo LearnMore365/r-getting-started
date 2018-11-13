@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="working-with-r-in-rstudio.html">
-<link rel="next" href="source-environment.html">
+<link rel="prev" href="installing-rstudio.html">
+<link rel="next" href="working-with-r-in-rstudio.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -139,17 +139,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="1.3" data-path="creating-a-new-project.html"><a href="creating-a-new-project.html"><i class="fa fa-check"></i><b>1.3</b> Creating A New Project</a></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="working-with-r-in-rstudio.html"><a href="working-with-r-in-rstudio.html"><i class="fa fa-check"></i><b>2</b> Working with R in RStudio</a><ul>
-<li class="chapter" data-level="2.1" data-path="the-console-bl.html"><a href="the-console-bl.html"><i class="fa fa-check"></i><b>2.1</b> The Console (bl)</a></li>
-<li class="chapter" data-level="2.2" data-path="source-environment.html"><a href="source-environment.html"><i class="fa fa-check"></i><b>2.2</b> Source &amp; Environment</a><ul>
-<li class="chapter" data-level="" data-path="source-environment.html"><a href="source-environment.html#creating-variables"><i class="fa fa-check"></i>Creating variables</a></li>
-<li class="chapter" data-level="" data-path="source-environment.html"><a href="source-environment.html#vectors"><i class="fa fa-check"></i>Vectors</a></li>
-</ul></li>
-<li class="chapter" data-level="2.3" data-path="and-functions-tr.html"><a href="and-functions-tr.html"><i class="fa fa-check"></i><b>2.3</b> and functions (tr)</a></li>
-<li class="chapter" data-level="2.4" data-path="history.html"><a href="history.html"><i class="fa fa-check"></i><b>2.4</b> History</a><ul>
-<li class="chapter" data-level="2.4.1" data-path="history.html"><a href="history.html#functions"><i class="fa fa-check"></i><b>2.4.1</b> Functions</a></li>
-</ul></li>
-<li class="chapter" data-level="2.5" data-path="files.html"><a href="files.html"><i class="fa fa-check"></i><b>2.5</b> Files</a></li>
-<li class="chapter" data-level="2.6" data-path="help.html"><a href="help.html"><i class="fa fa-check"></i><b>2.6</b> Help</a></li>
+<li class="chapter" data-level="2.1" data-path="arithmetic.html"><a href="arithmetic.html"><i class="fa fa-check"></i><b>2.1</b> Arithmetic</a></li>
+<li class="chapter" data-level="2.2" data-path="first-script.html"><a href="first-script.html"><i class="fa fa-check"></i><b>2.2</b> First Script</a></li>
+<li class="chapter" data-level="2.3" data-path="variables.html"><a href="variables.html"><i class="fa fa-check"></i><b>2.3</b> Variables</a></li>
+<li class="chapter" data-level="2.4" data-path="vectors.html"><a href="vectors.html"><i class="fa fa-check"></i><b>2.4</b> Vectors</a></li>
+<li class="chapter" data-level="2.5" data-path="functions.html"><a href="functions.html"><i class="fa fa-check"></i><b>2.5</b> Functions</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="starting-data-analysis.html"><a href="starting-data-analysis.html"><i class="fa fa-check"></i><b>3</b> Starting Data Analysis</a><ul>
 <li class="chapter" data-level="3.1" data-path="creating-a-project.html"><a href="creating-a-project.html"><i class="fa fa-check"></i><b>3.1</b> Creating A Project</a></li>
@@ -195,34 +189,48 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="the-console-bl" class="section level2">
-<h2><span class="header-section-number">2.1</span> The Console (bl)</h2>
-<p>Now that you are all set up we want to dive straight into using R. The console is where you can interactively run commands. You can think of R as a calculator - a very powerful calculator. R supports the five basic arithmetic operations.</p>
-<iframe width="100%" height="420" src="https://www.youtube.com/embed/tCrMPBq8P_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="dv">4</span> <span class="op">+</span><span class="st"> </span><span class="dv">5</span>    <span class="co"># Addition</span></a>
-<a class="sourceLine" id="cb1-2" data-line-number="2"><span class="dv">10</span> <span class="op">-</span><span class="st"> </span><span class="dv">1</span>   <span class="co"># Subtraction</span></a>
-<a class="sourceLine" id="cb1-3" data-line-number="3"><span class="dv">3</span> <span class="op">*</span><span class="st"> </span><span class="dv">3</span>    <span class="co"># Multiplication</span></a>
-<a class="sourceLine" id="cb1-4" data-line-number="4"><span class="dv">27</span> <span class="op">/</span><span class="st"> </span><span class="dv">3</span>   <span class="co"># Division</span></a>
-<a class="sourceLine" id="cb1-5" data-line-number="5"><span class="dv">3</span> <span class="op">**</span><span class="st"> </span><span class="dv">2</span>   <span class="co"># Power</span></a>
-<a class="sourceLine" id="cb1-6" data-line-number="6"></a>
-<a class="sourceLine" id="cb1-7" data-line-number="7"><span class="co"># Standard operator presedence and parentheses rules apply</span></a>
-<a class="sourceLine" id="cb1-8" data-line-number="8">(<span class="dv">35</span> <span class="op">+</span><span class="st"> </span><span class="dv">8</span>) <span class="op">*</span><span class="st"> </span><span class="dv">2</span> <span class="op">**</span><span class="st"> </span>(<span class="dv">10</span> <span class="op">/</span><span class="st"> </span><span class="dv">2</span>) <span class="op">-</span><span class="st"> </span><span class="dv">39</span></a></code></pre></div>
-<pre><code>## [1] 9
-## [1] 9
-## [1] 9
-## [1] 9
-## [1] 9
-## [1] 1337</code></pre>
-<p>There are two ways of writing the power operator <code>**</code> and <code>^</code>. Personally, I prefer the first way.</p>
+<div id="creating-a-new-project" class="section level2">
+<h2><span class="header-section-number">1.3</span> Creating A New Project</h2>
+<p>You should always create a project when you work on an analysis with RStudio. It helps you organize your analysis and takes care of low-level stuff.</p>
+<p>In the top left, click on <em>File</em> and then select <em>New Project…</em> and you should have a window pop up.</p>
+<div class="figure"><span id="fig:rstudio-new-project"></span>
+<img src="static/images/rstudio-new-project.png" alt="This is the new Project Window" width="100%" />
+<p class="caption">
+Figure 1.2: This is the new Project Window
+</p>
 </div>
+<p>Now, select <em>New Directory</em> and then <em>New Project</em>.</p>
+<div class="figure"><span id="fig:rstudio-new-project-type"></span>
+<img src="static/images/rstudio-new-project-type.png" alt="Choose the type of project." width="100%" />
+<p class="caption">
+Figure 1.3: Choose the type of project.
+</p>
+</div>
+<p>Give your project a name (<code>r-course</code>) and tell it where to save the project. Your R-project will not be a single file but a folder.</p>
+<div class="figure"><span id="fig:rstudio-new-project-dir"></span>
+<img src="static/images/rstudio-new-project-dir.png" alt="Name and Location" width="100%" />
+<p class="caption">
+Figure 1.4: Name and Location
+</p>
+</div>
+<p>That’s it you have created your first RStudio R-project.</p>
+<div class="figure"><span id="fig:rstudio-new-project-done"></span>
+<img src="static/images/rstudio-new-project-done.png" alt="Hurray!" width="100%" />
+<p class="caption">
+Figure 1.5: Hurray!
+</p>
+</div>
+<p>You can load projects via <em>Recent Projects</em> under <em>File</em>.</p>
+
+</div>
+<!-- </div> -->
             </section>
 
           </div>
         </div>
       </div>
-<a href="working-with-r-in-rstudio.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="source-environment.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="installing-rstudio.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="working-with-r-in-rstudio.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
