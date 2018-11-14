@@ -143,12 +143,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.2" data-path="first-script.html"><a href="first-script.html"><i class="fa fa-check"></i><b>2.2</b> First Script</a></li>
 <li class="chapter" data-level="2.3" data-path="variables.html"><a href="variables.html"><i class="fa fa-check"></i><b>2.3</b> Variables</a></li>
 <li class="chapter" data-level="2.4" data-path="vectors.html"><a href="vectors.html"><i class="fa fa-check"></i><b>2.4</b> Vectors</a></li>
-<li class="chapter" data-level="2.5" data-path="logic.html"><a href="logic.html"><i class="fa fa-check"></i><b>2.5</b> Logic</a></li>
+<li class="chapter" data-level="2.5" data-path="logic.html"><a href="logic.html"><i class="fa fa-check"></i><b>2.5</b> Logic *</a></li>
 <li class="chapter" data-level="2.6" data-path="functions.html"><a href="functions.html"><i class="fa fa-check"></i><b>2.6</b> Functions</a><ul>
 <li class="chapter" data-level="2.6.1" data-path="functions.html"><a href="functions.html#help"><i class="fa fa-check"></i><b>2.6.1</b> Help <code>?</code></a></li>
 </ul></li>
-<li class="chapter" data-level="2.7" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>2.7</b> Data</a></li>
-<li class="chapter" data-level="2.8" data-path="packages.html"><a href="packages.html"><i class="fa fa-check"></i><b>2.8</b> Packages</a></li>
+<li class="chapter" data-level="2.7" data-path="packages.html"><a href="packages.html"><i class="fa fa-check"></i><b>2.7</b> Packages</a></li>
+<li class="chapter" data-level="2.8" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>2.8</b> Data</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="starting-data-analysis.html"><a href="starting-data-analysis.html"><i class="fa fa-check"></i><b>3</b> Starting Data Analysis</a><ul>
 <li class="chapter" data-level="3.1" data-path="creating-a-project.html"><a href="creating-a-project.html"><i class="fa fa-check"></i><b>3.1</b> Creating A Project</a></li>
@@ -196,12 +196,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="yay" class="section level2">
 <h2><span class="header-section-number">5.1</span> Yay</h2>
-<div class="sourceCode" id="cb47"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb47-1" data-line-number="1"><span class="kw">library</span>(tidyverse)</a>
-<a class="sourceLine" id="cb47-2" data-line-number="2">bbt &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;static/data/BTT.csv&quot;</span>)</a>
-<a class="sourceLine" id="cb47-3" data-line-number="3"></a>
-<a class="sourceLine" id="cb47-4" data-line-number="4">bbt <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb47-5" data-line-number="5"><span class="st">  </span><span class="kw">filter</span>(episodes <span class="op">&gt;</span><span class="st"> </span><span class="dv">10</span>) <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb47-6" data-line-number="6"><span class="st">  </span>pander<span class="op">::</span><span class="kw">pander</span>()</a></code></pre></div>
+<div class="sourceCode" id="cb55"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb55-1" data-line-number="1"><span class="kw">library</span>(tidyverse)</a>
+<a class="sourceLine" id="cb55-2" data-line-number="2">bbt &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;static/data/BTT.csv&quot;</span>)</a>
+<a class="sourceLine" id="cb55-3" data-line-number="3"></a>
+<a class="sourceLine" id="cb55-4" data-line-number="4">bbt <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb55-5" data-line-number="5"><span class="st">  </span><span class="kw">filter</span>(episodes <span class="op">&gt;</span><span class="st"> </span><span class="dv">10</span>) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb55-6" data-line-number="6"><span class="st">  </span>pander<span class="op">::</span><span class="kw">pander</span>()</a></code></pre></div>
 <table>
 <colgroup>
 <col width="25%" />
@@ -348,14 +348,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </tr>
 </tbody>
 </table>
-<div class="sourceCode" id="cb48"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb48-1" data-line-number="1">bbt <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb48-2" data-line-number="2"><span class="st">  </span><span class="kw">filter</span>(episodes <span class="op">&gt;</span><span class="st"> </span><span class="dv">10</span>) <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb48-3" data-line-number="3"><span class="st">  </span><span class="kw">arrange</span>(episodes) <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb48-4" data-line-number="4"><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">person =</span> <span class="kw">factor</span>(person, <span class="kw">unique</span>(person))) <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb48-5" data-line-number="5"><span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(<span class="dt">x =</span> person, <span class="dt">y =</span> episodes)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb48-6" data-line-number="6"><span class="st">  </span><span class="kw">geom_col</span>() <span class="op">+</span></a>
-<a class="sourceLine" id="cb48-7" data-line-number="7"><span class="st">  </span><span class="kw">coord_flip</span>()</a></code></pre></div>
-<p><img src="getting-started_files/figure-html/unnamed-chunk-33-1.png" width="672" /></p>
+<div class="sourceCode" id="cb56"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb56-1" data-line-number="1">bbt <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb56-2" data-line-number="2"><span class="st">  </span><span class="kw">filter</span>(episodes <span class="op">&gt;</span><span class="st"> </span><span class="dv">10</span>) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb56-3" data-line-number="3"><span class="st">  </span><span class="kw">arrange</span>(episodes) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb56-4" data-line-number="4"><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">person =</span> <span class="kw">factor</span>(person, <span class="kw">unique</span>(person))) <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb56-5" data-line-number="5"><span class="st">  </span><span class="kw">ggplot</span>(<span class="kw">aes</span>(<span class="dt">x =</span> person, <span class="dt">y =</span> episodes)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb56-6" data-line-number="6"><span class="st">  </span><span class="kw">geom_col</span>() <span class="op">+</span></a>
+<a class="sourceLine" id="cb56-7" data-line-number="7"><span class="st">  </span><span class="kw">coord_flip</span>()</a></code></pre></div>
+<p><img src="getting-started_files/figure-html/unnamed-chunk-36-1.png" width="672" /></p>
 
 </div>
 <!-- </div> -->

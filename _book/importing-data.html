@@ -143,12 +143,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.2" data-path="first-script.html"><a href="first-script.html"><i class="fa fa-check"></i><b>2.2</b> First Script</a></li>
 <li class="chapter" data-level="2.3" data-path="variables.html"><a href="variables.html"><i class="fa fa-check"></i><b>2.3</b> Variables</a></li>
 <li class="chapter" data-level="2.4" data-path="vectors.html"><a href="vectors.html"><i class="fa fa-check"></i><b>2.4</b> Vectors</a></li>
-<li class="chapter" data-level="2.5" data-path="logic.html"><a href="logic.html"><i class="fa fa-check"></i><b>2.5</b> Logic</a></li>
+<li class="chapter" data-level="2.5" data-path="logic.html"><a href="logic.html"><i class="fa fa-check"></i><b>2.5</b> Logic *</a></li>
 <li class="chapter" data-level="2.6" data-path="functions.html"><a href="functions.html"><i class="fa fa-check"></i><b>2.6</b> Functions</a><ul>
 <li class="chapter" data-level="2.6.1" data-path="functions.html"><a href="functions.html#help"><i class="fa fa-check"></i><b>2.6.1</b> Help <code>?</code></a></li>
 </ul></li>
-<li class="chapter" data-level="2.7" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>2.7</b> Data</a></li>
-<li class="chapter" data-level="2.8" data-path="packages.html"><a href="packages.html"><i class="fa fa-check"></i><b>2.8</b> Packages</a></li>
+<li class="chapter" data-level="2.7" data-path="packages.html"><a href="packages.html"><i class="fa fa-check"></i><b>2.7</b> Packages</a></li>
+<li class="chapter" data-level="2.8" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>2.8</b> Data</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="starting-data-analysis.html"><a href="starting-data-analysis.html"><i class="fa fa-check"></i><b>3</b> Starting Data Analysis</a><ul>
 <li class="chapter" data-level="3.1" data-path="creating-a-project.html"><a href="creating-a-project.html"><i class="fa fa-check"></i><b>3.1</b> Creating A Project</a></li>
@@ -204,9 +204,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>csv</li>
 <li>xlsx</li>
 </ul>
-<div class="sourceCode" id="cb38"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb38-1" data-line-number="1"><span class="kw">library</span>(readr)</a></code></pre></div>
+<div class="sourceCode" id="cb46"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb46-1" data-line-number="1"><span class="kw">library</span>(readr)</a></code></pre></div>
 <p>Here we introduce the <code>readr</code> and <code>readxl</code> packagtes.</p>
-<div class="sourceCode" id="cb39"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb39-1" data-line-number="1">my_iris &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;iris.csv&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb47"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb47-1" data-line-number="1">my_iris &lt;-<span class="st"> </span><span class="kw">read_csv</span>(<span class="st">&quot;iris.csv&quot;</span>)</a></code></pre></div>
 <pre><code>## Parsed with column specification:
 ## cols(
 ##   Sepal.Length = col_double(),
@@ -215,7 +215,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 ##   Petal.Width = col_double(),
 ##   Species = col_character()
 ## )</code></pre>
-<div class="sourceCode" id="cb41"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb41-1" data-line-number="1"><span class="kw">head</span>(my_iris, <span class="dt">n =</span> <span class="dv">5</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb49"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb49-1" data-line-number="1"><span class="kw">head</span>(my_iris, <span class="dt">n =</span> <span class="dv">5</span>)</a></code></pre></div>
 <pre><code>## # A tibble: 5 x 5
 ##   Sepal.Length Sepal.Width Petal.Length Petal.Width Species
 ##          &lt;dbl&gt;       &lt;dbl&gt;        &lt;dbl&gt;       &lt;dbl&gt; &lt;chr&gt;  
@@ -225,16 +225,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 ## 4          4.6         3.1          1.5         0.2 setosa 
 ## 5          5           3.6          1.4         0.2 setosa</code></pre>
 <p>this is useful because we can fix the column types like this.</p>
-<div class="sourceCode" id="cb43"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb43-1" data-line-number="1">my_iris &lt;-<span class="st"> </span><span class="kw">read_csv</span>(</a>
-<a class="sourceLine" id="cb43-2" data-line-number="2">    <span class="dt">file =</span> <span class="st">&quot;iris.csv&quot;</span>,</a>
-<a class="sourceLine" id="cb43-3" data-line-number="3">    <span class="dt">col_types =</span> <span class="kw">cols</span>(</a>
-<a class="sourceLine" id="cb43-4" data-line-number="4">      <span class="dt">Sepal.Length =</span> <span class="kw">col_double</span>(),</a>
-<a class="sourceLine" id="cb43-5" data-line-number="5">      <span class="dt">Sepal.Width =</span> <span class="kw">col_double</span>(),</a>
-<a class="sourceLine" id="cb43-6" data-line-number="6">      <span class="dt">Petal.Length =</span> <span class="kw">col_double</span>(),</a>
-<a class="sourceLine" id="cb43-7" data-line-number="7">      <span class="dt">Petal.Width =</span> <span class="kw">col_double</span>(),</a>
-<a class="sourceLine" id="cb43-8" data-line-number="8">      <span class="dt">Species =</span> <span class="kw">col_character</span>()</a>
-<a class="sourceLine" id="cb43-9" data-line-number="9">    )</a>
-<a class="sourceLine" id="cb43-10" data-line-number="10">)</a></code></pre></div>
+<div class="sourceCode" id="cb51"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb51-1" data-line-number="1">my_iris &lt;-<span class="st"> </span><span class="kw">read_csv</span>(</a>
+<a class="sourceLine" id="cb51-2" data-line-number="2">    <span class="dt">file =</span> <span class="st">&quot;iris.csv&quot;</span>,</a>
+<a class="sourceLine" id="cb51-3" data-line-number="3">    <span class="dt">col_types =</span> <span class="kw">cols</span>(</a>
+<a class="sourceLine" id="cb51-4" data-line-number="4">      <span class="dt">Sepal.Length =</span> <span class="kw">col_double</span>(),</a>
+<a class="sourceLine" id="cb51-5" data-line-number="5">      <span class="dt">Sepal.Width =</span> <span class="kw">col_double</span>(),</a>
+<a class="sourceLine" id="cb51-6" data-line-number="6">      <span class="dt">Petal.Length =</span> <span class="kw">col_double</span>(),</a>
+<a class="sourceLine" id="cb51-7" data-line-number="7">      <span class="dt">Petal.Width =</span> <span class="kw">col_double</span>(),</a>
+<a class="sourceLine" id="cb51-8" data-line-number="8">      <span class="dt">Species =</span> <span class="kw">col_character</span>()</a>
+<a class="sourceLine" id="cb51-9" data-line-number="9">    )</a>
+<a class="sourceLine" id="cb51-10" data-line-number="10">)</a></code></pre></div>
 
 </div>
 <!-- </div> -->

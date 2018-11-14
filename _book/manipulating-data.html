@@ -143,12 +143,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.2" data-path="first-script.html"><a href="first-script.html"><i class="fa fa-check"></i><b>2.2</b> First Script</a></li>
 <li class="chapter" data-level="2.3" data-path="variables.html"><a href="variables.html"><i class="fa fa-check"></i><b>2.3</b> Variables</a></li>
 <li class="chapter" data-level="2.4" data-path="vectors.html"><a href="vectors.html"><i class="fa fa-check"></i><b>2.4</b> Vectors</a></li>
-<li class="chapter" data-level="2.5" data-path="logic.html"><a href="logic.html"><i class="fa fa-check"></i><b>2.5</b> Logic</a></li>
+<li class="chapter" data-level="2.5" data-path="logic.html"><a href="logic.html"><i class="fa fa-check"></i><b>2.5</b> Logic *</a></li>
 <li class="chapter" data-level="2.6" data-path="functions.html"><a href="functions.html"><i class="fa fa-check"></i><b>2.6</b> Functions</a><ul>
 <li class="chapter" data-level="2.6.1" data-path="functions.html"><a href="functions.html#help"><i class="fa fa-check"></i><b>2.6.1</b> Help <code>?</code></a></li>
 </ul></li>
-<li class="chapter" data-level="2.7" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>2.7</b> Data</a></li>
-<li class="chapter" data-level="2.8" data-path="packages.html"><a href="packages.html"><i class="fa fa-check"></i><b>2.8</b> Packages</a></li>
+<li class="chapter" data-level="2.7" data-path="packages.html"><a href="packages.html"><i class="fa fa-check"></i><b>2.7</b> Packages</a></li>
+<li class="chapter" data-level="2.8" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>2.8</b> Data</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="starting-data-analysis.html"><a href="starting-data-analysis.html"><i class="fa fa-check"></i><b>3</b> Starting Data Analysis</a><ul>
 <li class="chapter" data-level="3.1" data-path="creating-a-project.html"><a href="creating-a-project.html"><i class="fa fa-check"></i><b>3.1</b> Creating A Project</a></li>
@@ -205,11 +205,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>stringr::str_extract</li>
 <li>stringr::str_replace</li>
 </ul>
-<div class="sourceCode" id="cb44"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb44-1" data-line-number="1"><span class="kw">library</span>(tidyr)</a>
-<a class="sourceLine" id="cb44-2" data-line-number="2"></a>
-<a class="sourceLine" id="cb44-3" data-line-number="3"></a>
-<a class="sourceLine" id="cb44-4" data-line-number="4">iris <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb44-5" data-line-number="5"><span class="st">  </span><span class="kw">separate</span>(Sepal.Length, <span class="dt">into =</span> <span class="kw">c</span>(<span class="st">&quot;first&quot;</span>, <span class="st">&quot;second&quot;</span>), <span class="dt">sep =</span> <span class="st">&quot;</span><span class="ch">\\</span><span class="st">.&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb52"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb52-1" data-line-number="1"><span class="kw">library</span>(tidyr)</a>
+<a class="sourceLine" id="cb52-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb52-3" data-line-number="3"></a>
+<a class="sourceLine" id="cb52-4" data-line-number="4">iris <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb52-5" data-line-number="5"><span class="st">  </span><span class="kw">separate</span>(Sepal.Length, <span class="dt">into =</span> <span class="kw">c</span>(<span class="st">&quot;first&quot;</span>, <span class="st">&quot;second&quot;</span>), <span class="dt">sep =</span> <span class="st">&quot;</span><span class="ch">\\</span><span class="st">.&quot;</span>)</a></code></pre></div>
 <pre><code>## Warning: Expected 2 pieces. Missing pieces filled with `NA` in 17 rows [5,
 ## 8, 26, 27, 36, 41, 44, 50, 51, 61, 63, 79, 84, 86, 94, 120, 139].</code></pre>
 <pre><code>##     first second Sepal.Width Petal.Length Petal.Width    Species

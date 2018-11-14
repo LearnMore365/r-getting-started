@@ -143,12 +143,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.2" data-path="first-script.html"><a href="first-script.html"><i class="fa fa-check"></i><b>2.2</b> First Script</a></li>
 <li class="chapter" data-level="2.3" data-path="variables.html"><a href="variables.html"><i class="fa fa-check"></i><b>2.3</b> Variables</a></li>
 <li class="chapter" data-level="2.4" data-path="vectors.html"><a href="vectors.html"><i class="fa fa-check"></i><b>2.4</b> Vectors</a></li>
-<li class="chapter" data-level="2.5" data-path="logic.html"><a href="logic.html"><i class="fa fa-check"></i><b>2.5</b> Logic</a></li>
+<li class="chapter" data-level="2.5" data-path="logic.html"><a href="logic.html"><i class="fa fa-check"></i><b>2.5</b> Logic *</a></li>
 <li class="chapter" data-level="2.6" data-path="functions.html"><a href="functions.html"><i class="fa fa-check"></i><b>2.6</b> Functions</a><ul>
 <li class="chapter" data-level="2.6.1" data-path="functions.html"><a href="functions.html#help"><i class="fa fa-check"></i><b>2.6.1</b> Help <code>?</code></a></li>
 </ul></li>
-<li class="chapter" data-level="2.7" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>2.7</b> Data</a></li>
-<li class="chapter" data-level="2.8" data-path="packages.html"><a href="packages.html"><i class="fa fa-check"></i><b>2.8</b> Packages</a></li>
+<li class="chapter" data-level="2.7" data-path="packages.html"><a href="packages.html"><i class="fa fa-check"></i><b>2.7</b> Packages</a></li>
+<li class="chapter" data-level="2.8" data-path="data.html"><a href="data.html"><i class="fa fa-check"></i><b>2.8</b> Data</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="starting-data-analysis.html"><a href="starting-data-analysis.html"><i class="fa fa-check"></i><b>3</b> Starting Data Analysis</a><ul>
 <li class="chapter" data-level="3.1" data-path="creating-a-project.html"><a href="creating-a-project.html"><i class="fa fa-check"></i><b>3.1</b> Creating A Project</a></li>
@@ -197,16 +197,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="linear-model" class="section level2">
 <h2><span class="header-section-number">6.2</span> Linear Model</h2>
 <p><span class="math display">\[y  = a + bx\]</span></p>
-<div class="sourceCode" id="cb49"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb49-1" data-line-number="1">a &lt;-<span class="st"> </span><span class="dv">2</span></a>
-<a class="sourceLine" id="cb49-2" data-line-number="2">b &lt;-<span class="st"> </span><span class="dv">6</span></a>
-<a class="sourceLine" id="cb49-3" data-line-number="3"></a>
-<a class="sourceLine" id="cb49-4" data-line-number="4">x &lt;-<span class="st"> </span><span class="dv">1</span><span class="op">:</span><span class="dv">10</span></a>
-<a class="sourceLine" id="cb49-5" data-line-number="5">y &lt;-<span class="st"> </span>a <span class="op">+</span><span class="st"> </span>x <span class="op">*</span><span class="st"> </span>b</a>
-<a class="sourceLine" id="cb49-6" data-line-number="6"></a>
-<a class="sourceLine" id="cb49-7" data-line-number="7">df &lt;-<span class="st"> </span><span class="kw">tibble</span>(<span class="dt">y =</span> y, <span class="dt">x =</span> x)</a>
-<a class="sourceLine" id="cb49-8" data-line-number="8"></a>
-<a class="sourceLine" id="cb49-9" data-line-number="9"></a>
-<a class="sourceLine" id="cb49-10" data-line-number="10"><span class="kw">lm</span>(y <span class="op">~</span><span class="st"> </span>x, <span class="dt">data =</span> df)</a></code></pre></div>
+<div class="sourceCode" id="cb57"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb57-1" data-line-number="1">a &lt;-<span class="st"> </span><span class="dv">2</span></a>
+<a class="sourceLine" id="cb57-2" data-line-number="2">b &lt;-<span class="st"> </span><span class="dv">6</span></a>
+<a class="sourceLine" id="cb57-3" data-line-number="3"></a>
+<a class="sourceLine" id="cb57-4" data-line-number="4">x &lt;-<span class="st"> </span><span class="dv">1</span><span class="op">:</span><span class="dv">10</span></a>
+<a class="sourceLine" id="cb57-5" data-line-number="5">y &lt;-<span class="st"> </span>a <span class="op">+</span><span class="st"> </span>x <span class="op">*</span><span class="st"> </span>b</a>
+<a class="sourceLine" id="cb57-6" data-line-number="6"></a>
+<a class="sourceLine" id="cb57-7" data-line-number="7">df &lt;-<span class="st"> </span><span class="kw">tibble</span>(<span class="dt">y =</span> y, <span class="dt">x =</span> x)</a>
+<a class="sourceLine" id="cb57-8" data-line-number="8"></a>
+<a class="sourceLine" id="cb57-9" data-line-number="9"></a>
+<a class="sourceLine" id="cb57-10" data-line-number="10"><span class="kw">lm</span>(y <span class="op">~</span><span class="st"> </span>x, <span class="dt">data =</span> df)</a></code></pre></div>
 <pre><code>## 
 ## Call:
 ## lm(formula = y ~ x, data = df)
@@ -215,17 +215,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 ## (Intercept)            x  
 ##           2            6</code></pre>
 <p>We can also fit a non-linear relationship</p>
-<div class="sourceCode" id="cb51"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb51-1" data-line-number="1">a &lt;-<span class="st"> </span><span class="dv">2</span></a>
-<a class="sourceLine" id="cb51-2" data-line-number="2">b_<span class="dv">1</span> &lt;-<span class="st"> </span><span class="dv">3</span></a>
-<a class="sourceLine" id="cb51-3" data-line-number="3">b_<span class="dv">2</span> &lt;-<span class="st"> </span><span class="dv">4</span></a>
-<a class="sourceLine" id="cb51-4" data-line-number="4"></a>
-<a class="sourceLine" id="cb51-5" data-line-number="5">x &lt;-<span class="st"> </span><span class="dv">1</span><span class="op">:</span><span class="dv">10</span></a>
-<a class="sourceLine" id="cb51-6" data-line-number="6">y &lt;-<span class="st"> </span>a <span class="op">+</span><span class="st"> </span>x <span class="op">*</span><span class="st"> </span>b_<span class="dv">1</span> <span class="op">+</span><span class="st"> </span>x<span class="op">^</span><span class="dv">2</span> <span class="op">*</span><span class="st"> </span>b_<span class="dv">2</span></a>
-<a class="sourceLine" id="cb51-7" data-line-number="7"></a>
-<a class="sourceLine" id="cb51-8" data-line-number="8">df &lt;-<span class="st"> </span><span class="kw">tibble</span>(<span class="dt">y =</span> y, <span class="dt">x =</span> x, <span class="dt">x2 =</span> x <span class="op">**</span><span class="st"> </span><span class="dv">2</span>)</a>
-<a class="sourceLine" id="cb51-9" data-line-number="9"></a>
-<a class="sourceLine" id="cb51-10" data-line-number="10"></a>
-<a class="sourceLine" id="cb51-11" data-line-number="11"><span class="kw">lm</span>(y <span class="op">~</span><span class="st"> </span>x, <span class="dt">data =</span> df)</a></code></pre></div>
+<div class="sourceCode" id="cb59"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb59-1" data-line-number="1">a &lt;-<span class="st"> </span><span class="dv">2</span></a>
+<a class="sourceLine" id="cb59-2" data-line-number="2">b_<span class="dv">1</span> &lt;-<span class="st"> </span><span class="dv">3</span></a>
+<a class="sourceLine" id="cb59-3" data-line-number="3">b_<span class="dv">2</span> &lt;-<span class="st"> </span><span class="dv">4</span></a>
+<a class="sourceLine" id="cb59-4" data-line-number="4"></a>
+<a class="sourceLine" id="cb59-5" data-line-number="5">x &lt;-<span class="st"> </span><span class="dv">1</span><span class="op">:</span><span class="dv">10</span></a>
+<a class="sourceLine" id="cb59-6" data-line-number="6">y &lt;-<span class="st"> </span>a <span class="op">+</span><span class="st"> </span>x <span class="op">*</span><span class="st"> </span>b_<span class="dv">1</span> <span class="op">+</span><span class="st"> </span>x<span class="op">^</span><span class="dv">2</span> <span class="op">*</span><span class="st"> </span>b_<span class="dv">2</span></a>
+<a class="sourceLine" id="cb59-7" data-line-number="7"></a>
+<a class="sourceLine" id="cb59-8" data-line-number="8">df &lt;-<span class="st"> </span><span class="kw">tibble</span>(<span class="dt">y =</span> y, <span class="dt">x =</span> x, <span class="dt">x2 =</span> x <span class="op">**</span><span class="st"> </span><span class="dv">2</span>)</a>
+<a class="sourceLine" id="cb59-9" data-line-number="9"></a>
+<a class="sourceLine" id="cb59-10" data-line-number="10"></a>
+<a class="sourceLine" id="cb59-11" data-line-number="11"><span class="kw">lm</span>(y <span class="op">~</span><span class="st"> </span>x, <span class="dt">data =</span> df)</a></code></pre></div>
 <pre><code>## 
 ## Call:
 ## lm(formula = y ~ x, data = df)
@@ -233,7 +233,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 ## Coefficients:
 ## (Intercept)            x  
 ##         -86           47</code></pre>
-<div class="sourceCode" id="cb53"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb53-1" data-line-number="1"><span class="kw">lm</span>(y <span class="op">~</span><span class="st"> </span>x <span class="op">+</span><span class="st"> </span>x2, <span class="dt">data =</span> df)</a></code></pre></div>
+<div class="sourceCode" id="cb61"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb61-1" data-line-number="1"><span class="kw">lm</span>(y <span class="op">~</span><span class="st"> </span>x <span class="op">+</span><span class="st"> </span>x2, <span class="dt">data =</span> df)</a></code></pre></div>
 <pre><code>## 
 ## Call:
 ## lm(formula = y ~ x + x2, data = df)

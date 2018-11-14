@@ -161,7 +161,7 @@ Shorthand for vectors
 1:5 * 2
 ```
 
-## Logic 
+## Logic *
 
 
 Comparison
@@ -178,7 +178,6 @@ Combination
 
 ```{r echo=FALSE, results='hold'}
 x <- c(TRUE, FALSE)  
-
 expand.grid(x, x) %>% 
   mutate(Var1 | Var2, Var1 & Var2, Var1 == Var2, !Var1) %>% 
   knitr::kable()
@@ -212,8 +211,34 @@ There is a built in help in R. You can use it by putting an `?` in front of a fu
 ```
 
 
+## Packages
+
+
+Packages are a collection of functions that you can load on top of R-base's functions. They extend R. In this course we will use the Tidyverse-package extensively. The Tidyverse is a collection of packages ...
+
+
+You can install packages from CRAN by using `install.packages`. Install tidyverse by running
+
+```{r, eval=FALSE}
+install.packages("tidyverse")
+```
+
+After you've installed a package you need to load it to make it's functions available.
+
+```{r, eval=TRUE}
+library("tidyverse")
+```
+
+
+
 ## Data
 
+R comes with a couple of built in datasets.
+
+```{r}
+head(iris)
+as_tibble(iris) %>% head()
+head(mtcars)
+```
 
 
-## Packages
