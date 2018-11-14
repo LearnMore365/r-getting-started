@@ -4,7 +4,7 @@ R is free software.
 
 We are going to walk you through the process _step-by-step_.
 
-## Installing R 
+## Installing R and RStudio
 
 You can install R by going to the [CRAN](https://cran.r-project.org/mirrors.html) website.
 
@@ -19,12 +19,24 @@ Click the link for your operating system.
 
 lorem ipsum
 
+-? Screens
+
 ### Installing R on Mac OS X
 
+```{exercise install-something}
 
-lorem ipsum
+Try to
 
-## Installing RStudio
+```
+
+```{theorem, name="Pythagorean theorem"}
+For a right triangle, if $c$ denotes the length of the hypotenuse
+and $a$ and $b$ denote the lengths of the other two sides, we have
+$$a^2 + b^2 = c^2$$
+```
+
+
+### RStudio
 
 R itself does not come with a nice graphical interface. More text
 

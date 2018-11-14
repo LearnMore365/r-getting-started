@@ -20,10 +20,7 @@ knitr::write_bib(c(
 ```
 
 
-
-
 # Preface {-}
-
 
 ```{r asd-view, echo=FALSE, fig.cap='RStudio (This is the caption)', out.width='100%'}
 knitr::include_graphics("static/images/test-cover.jpg", dpi = NA)

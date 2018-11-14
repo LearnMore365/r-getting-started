@@ -32,8 +32,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   
   
-<link rel="prev" href="arithmetic-operators.html">
-<link rel="next" href="variables.html">
+<link rel="prev" href="functions.html">
+<link rel="next" href="packages.html">
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -194,36 +194,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="first-script" class="section level2">
-<h2><span class="header-section-number">2.2</span> First Script</h2>
-<p>Most of the time you’ll want to document the commands you run. You can create a new file by clicking File -&gt; New File -&gt; R Script File or by pressing Cmd + Shift + N.</p>
-<p>Create a new file and add the following line.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1"><span class="kw">print</span>(<span class="st">&quot;Hello from R!&quot;</span>)</a></code></pre></div>
-<p>Here, we are using a function <code>print</code>. You may suspect that the <code>print</code> function prints something and you would be correct. We will look at other functions soon.
-Now, save the file by either clicking the floppy drive symbol (or pressing Cmd + S). Give then file the name <code>hello.R</code></p>
-<p>Clicking the <em>Source</em> button (or pressing Cmd + Shift + S) on the top right border will make R exectute the code in the file and your console will show something along these lines.</p>
-<pre><code>&gt; source(&#39;~/r-course/hello.R&#39;, echo=TRUE)
-
-&gt; print(&quot;Hello from R!&quot;)
-[1] &quot;Hello from R!&quot;</code></pre>
-<p>We’ve sourced the file <code>hello.R</code> and the console shows that it ran the command <code>print(&quot;Hello from R!&quot;)</code> and the output was <code>[1] &quot;Hello from R!&quot;</code>.</p>
-<p>Add the artirhmetic expression to the file.</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" data-line-number="1"><span class="kw">print</span>(<span class="st">&quot;Hello from R!&quot;</span>)</a>
-<a class="sourceLine" id="cb5-2" data-line-number="2"></a>
-<a class="sourceLine" id="cb5-3" data-line-number="3"><span class="dv">53</span> <span class="op">-</span><span class="st"> </span><span class="dv">11</span></a></code></pre></div>
-<p>Bring your cursor to the end of the first line after <code>print(&quot;Hello from R!&quot;)</code> and press Cmd + Enter, this will run (source) just this one line. The cursor will automaticall jump to the end of the line after the next command. If you press Cmd + Enter again it will run next line.</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="kw">print</span>(<span class="st">&quot;Hello from R!&quot;</span>)</a></code></pre></div>
-<pre><code>## [1] &quot;Hello from R!&quot;</code></pre>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" data-line-number="1"><span class="dv">53</span> <span class="op">-</span><span class="st"> </span><span class="dv">11</span></a></code></pre></div>
-<pre><code>## [1] 42</code></pre>
+<div id="data" class="section level2">
+<h2><span class="header-section-number">2.7</span> Data</h2>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="arithmetic-operators.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="variables.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="functions.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="packages.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

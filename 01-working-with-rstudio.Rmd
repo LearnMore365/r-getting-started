@@ -20,7 +20,7 @@ When you open up RStudio you see a couple of windows and each window has a coupl
 6. Help, where you can read documentation
 7. Viewer, where you can view plots or other graphical or interactive elements of your analysis
 
-## Arithmetic
+## Arithmetic Operators
 
 Now that you are all set up we want to dive straight into using R. The console is where you can interactively run commands. You can think of R as a calculator - a very powerful calculator. R supports the five basic arithmetic operations.
 
@@ -50,7 +50,7 @@ print("Hello from R!")
 ```
 
 
-Here, we are using a function `print`. You may suspect that the `print` function prints something and you would be correct. We will more functions soon.
+Here, we are using a function `print`. You may suspect that the `print` function prints something and you would be correct. We will look at other functions soon.
 Now, save the file by either clicking the floppy drive symbol (or pressing Cmd + S). Give then file the name `hello.R`
 
 Clicking the _Source_ button (or pressing Cmd + Shift + S) on the top right border will make R exectute the code in the file and your console will show something along these lines.
@@ -81,6 +81,8 @@ print("Hello from R!")
 
 ## Variables 
 
+Variables are a fundamental building block of R and any programming language. They allow you to reference values.
+
 Usually you will have to store results from running a command and sometimes you want t
 
 ```{r}
@@ -92,14 +94,43 @@ When you enter this on your R console in RStudio nothing will happen. We have to
 
 ```{r}
 my_first_variable
+my_text
 ```
 
 Arithmetic operations work on variables just like they do on literal numbers.
 
 ```{r}
-a <- 5
-b <- 10
-a * b
+x <- 5
+y <- 10
+x * y
+```
+
+Of course we can assign the value to another variable and later use that variable in another computation.
+
+```{r}
+z <- x * y + 3
+w <- z - x
+```
+
+
+You can check on your variables in the Environment tab.
+
+-- Screenshot
+
+Keep these things in mind when creating variables:
+
+Choose short and descriptive variable names and always use underscores to separate words. Variable names can contain numbers but they can't start with a number. Always use the 
+
+```{r, eval=FALSE}
+# Error
+1_x <- 9
+# Bad
+BadName <- 9
+# Good
+good_name <- 9
+good_name_2 <- 2
+# Bad Assignment Operator
+bad_assign = 9
 ```
 
 ## Vectors 
@@ -130,15 +161,55 @@ Shorthand for vectors
 1:5 * 2
 ```
 
-## Functions
+## Logic 
+
+
+Comparison
+
+```{r, results='hold'}
+1:3 > 2  # Greater
+1:3 >= 2 # Greater Equal
+1:3 == 2 # Equals
+1:3 <= 2 # Less Equal 
+1:3 < 2  # Less
+```
+
+Combination
+
+```{r, results='hold'}
+TRUE & FALSE
+TRUE | FALSE
+```
+
+
+
+## Functions 
+
 
 Whenever you tell R to run some command, R will execute that command in an environment.
+
+
+derp
 
 
 ```{r}
 sum(my_first_vector)
 sd(my_first_vector)
+var(my_first_variable)
 ```
 
 
+### Help `?` 
 
+There is a built in help in R. You can use it by putting an `?` in front of a function name.
+
+```{r, eval=FALSE}
+?sum
+```
+
+
+## Data
+
+
+
+## Packages
