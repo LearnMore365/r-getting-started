@@ -208,10 +208,52 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 ## [1]  TRUE  TRUE FALSE
 ## [1]  TRUE FALSE FALSE</code></pre>
 <p>Combination</p>
-<div class="sourceCode" id="cb28"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb28-1" data-line-number="1"><span class="ot">TRUE</span> <span class="op">&amp;</span><span class="st"> </span><span class="ot">FALSE</span></a>
-<a class="sourceLine" id="cb28-2" data-line-number="2"><span class="ot">TRUE</span> <span class="op">|</span><span class="st"> </span><span class="ot">FALSE</span></a></code></pre></div>
-<pre><code>## [1] FALSE
-## [1] TRUE</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Var1</th>
+<th align="left">Var2</th>
+<th align="left">Var1 | Var2</th>
+<th align="left">Var1 &amp; Var2</th>
+<th align="left">Var1 == Var2</th>
+<th align="left">!Var1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">TRUE</td>
+<td align="left">TRUE</td>
+<td align="left">TRUE</td>
+<td align="left">TRUE</td>
+<td align="left">TRUE</td>
+<td align="left">FALSE</td>
+</tr>
+<tr class="even">
+<td align="left">FALSE</td>
+<td align="left">TRUE</td>
+<td align="left">TRUE</td>
+<td align="left">FALSE</td>
+<td align="left">FALSE</td>
+<td align="left">TRUE</td>
+</tr>
+<tr class="odd">
+<td align="left">TRUE</td>
+<td align="left">FALSE</td>
+<td align="left">TRUE</td>
+<td align="left">FALSE</td>
+<td align="left">FALSE</td>
+<td align="left">FALSE</td>
+</tr>
+<tr class="even">
+<td align="left">FALSE</td>
+<td align="left">FALSE</td>
+<td align="left">FALSE</td>
+<td align="left">FALSE</td>
+<td align="left">TRUE</td>
+<td align="left">TRUE</td>
+</tr>
+</tbody>
+</table>
 </div>
             </section>
 

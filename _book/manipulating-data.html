@@ -205,11 +205,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>stringr::str_extract</li>
 <li>stringr::str_replace</li>
 </ul>
-<div class="sourceCode" id="cb46"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb46-1" data-line-number="1"><span class="kw">library</span>(tidyr)</a>
-<a class="sourceLine" id="cb46-2" data-line-number="2"></a>
-<a class="sourceLine" id="cb46-3" data-line-number="3"></a>
-<a class="sourceLine" id="cb46-4" data-line-number="4">iris <span class="op">%&gt;%</span><span class="st"> </span></a>
-<a class="sourceLine" id="cb46-5" data-line-number="5"><span class="st">  </span><span class="kw">separate</span>(Sepal.Length, <span class="dt">into =</span> <span class="kw">c</span>(<span class="st">&quot;first&quot;</span>, <span class="st">&quot;second&quot;</span>), <span class="dt">sep =</span> <span class="st">&quot;</span><span class="ch">\\</span><span class="st">.&quot;</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb44"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb44-1" data-line-number="1"><span class="kw">library</span>(tidyr)</a>
+<a class="sourceLine" id="cb44-2" data-line-number="2"></a>
+<a class="sourceLine" id="cb44-3" data-line-number="3"></a>
+<a class="sourceLine" id="cb44-4" data-line-number="4">iris <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb44-5" data-line-number="5"><span class="st">  </span><span class="kw">separate</span>(Sepal.Length, <span class="dt">into =</span> <span class="kw">c</span>(<span class="st">&quot;first&quot;</span>, <span class="st">&quot;second&quot;</span>), <span class="dt">sep =</span> <span class="st">&quot;</span><span class="ch">\\</span><span class="st">.&quot;</span>)</a></code></pre></div>
 <pre><code>## Warning: Expected 2 pieces. Missing pieces filled with `NA` in 17 rows [5,
 ## 8, 26, 27, 36, 41, 44, 50, 51, 61, 63, 79, 84, 86, 94, 120, 139].</code></pre>
 <pre><code>##     first second Sepal.Width Petal.Length Petal.Width    Species

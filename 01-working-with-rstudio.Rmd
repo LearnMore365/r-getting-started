@@ -176,10 +176,14 @@ Comparison
 
 Combination
 
-```{r, results='hold'}
-TRUE & FALSE
-TRUE | FALSE
+```{r echo=FALSE, results='hold'}
+x <- c(TRUE, FALSE)  
+
+expand.grid(x, x) %>% 
+  mutate(Var1 | Var2, Var1 & Var2, Var1 == Var2, !Var1) %>% 
+  knitr::kable()
 ```
+
 
 
 
