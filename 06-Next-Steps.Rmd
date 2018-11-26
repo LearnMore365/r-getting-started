@@ -10,6 +10,144 @@
 
 ## Writting clean code
 
+1. Do not exceed 80 characters per line
+2. Indent 2 spaces (this should be the default setting for tab to spaces)
+
+You should always use underscores as separators in variable names. 
+
+### Variable Names
+
+```{r}
+avg_length <- 3
+avg_len <- 4
+
+#Bad 
+avgLength <- 5
+
+```
+
+
+you can use numbers in variable names but you cannot start a variable name with a number. 
+Most of the time you feels like using a number in a variable name you should consider using
+a list instead.
+
+```{r}
+value_1 <- c(27, 19)
+value_2 <- c(13, 42)
+
+# Better
+values <- list(c(27, 19), c(13, 42))
+```
+
+
+### Assignment Operator
+
+Always use `<-` for assignment and `=` for named arguments in function calls.
+
+```{r}
+# good
+x <- 10
+
+# bad
+x = 10
+
+# good
+z <- t.test(1:10, y = 10:1, paired = T)
+```
+
+### Spaces
+
+* Never use a space before a comma, always use a space after a comma.
+* always put a space before and after a binary operator `+`, `-`, `*`, `=`, `==`, etc.
+
+### Long Lists 
+
+```{r}
+# good
+students <- list(
+  jon = "Jon Snow",
+  greg = "Greg Martin",
+  reto = "Reto Wyss",
+  severus = "Severus Snape",
+  barney = "Barney Stinson"
+)
+
+students <- list(
+  jon     = "Jon Snow",
+  greg    = "Greg Martin",
+  reto    = "Reto Wyss",
+  severus = "Severus Snape",
+  barney  = "Barney Stinson"
+)
+
+# not our preference but kind of ok
+students <- list(jon = "Jon Snow",
+                 greg = "Greg Martin", 
+                 reto = "Reto Wyss",
+                 severus = "Severus Snape",
+                 barney = "Barney Stinson")
+
+# bad
+students <- list(jon = "Jon Snow", greg = "Greg Martin", reto = "Reto Wyss", severus = "Severus Snape", barney = "Barney Stinson")
+```
+
+
+### Function Calls
+
+
+```{r}
+# good
+x <- mean(1:10)
+
+# (1) piped unnamed argument
+better_iris <- iris %>% 
+  mutate(
+    petal_volume = Petal.Length * Petal.Width / 2 * pi,
+    sepal_volume = Sepal.Length * Sepal.Width / 2 * pi
+  )
+
+# (2) unnamed argument by itself, named arguments grouped
+better_iris <- mutate(iris,
+  petal_volume = Petal.Length * Petal.Width / 2 * pi,
+  sepal_volume = Sepal.Length * Sepal.Width / 2 * pi
+)
+
+# (3) ok
+better_iris <- iris %>% 
+  mutate(petal_volume = Petal.Length * Petal.Width / 2 * pi,
+         sepal_volume = Sepal.Length * Sepal.Width / 2 * pi)
+```
+
+
+### Function Definition
+
+```{r}
+# good
+my_function <- function(argument_one, argument_two) {
+  # code here
+}
+
+# bad
+my_function <- function(argument_one, argument_two)
+{
+  # code here
+}
+
+
+# good
+my_function <- function(argument_one, 
+                        argument_two, 
+                        argument_three, 
+                        argument_four) {
+  # code here
+}
+```
+
+
+### Exercises
+
+Here you find some code snippets, judge for yourself whether these are written in good style.
+
 * We can reference some stuff here
 
 ## What else you can do with R

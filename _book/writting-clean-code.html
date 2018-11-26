@@ -167,7 +167,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="7" data-path="next-steps.html"><a href="next-steps.html"><i class="fa fa-check"></i><b>7</b> Next Steps</a><ul>
 <li class="chapter" data-level="7.1" data-path="how-to-get-help.html"><a href="how-to-get-help.html"><i class="fa fa-check"></i><b>7.1</b> How To Get Help</a></li>
 <li class="chapter" data-level="7.2" data-path="more-on-packages.html"><a href="more-on-packages.html"><i class="fa fa-check"></i><b>7.2</b> More on packages</a></li>
-<li class="chapter" data-level="7.3" data-path="writting-clean-code.html"><a href="writting-clean-code.html"><i class="fa fa-check"></i><b>7.3</b> Writting clean code</a></li>
+<li class="chapter" data-level="7.3" data-path="writting-clean-code.html"><a href="writting-clean-code.html"><i class="fa fa-check"></i><b>7.3</b> Writting clean code</a><ul>
+<li class="chapter" data-level="7.3.1" data-path="writting-clean-code.html"><a href="writting-clean-code.html#variable-names"><i class="fa fa-check"></i><b>7.3.1</b> Variable Names</a></li>
+<li class="chapter" data-level="7.3.2" data-path="writting-clean-code.html"><a href="writting-clean-code.html#assignment-operator"><i class="fa fa-check"></i><b>7.3.2</b> Assignment Operator</a></li>
+<li class="chapter" data-level="7.3.3" data-path="writting-clean-code.html"><a href="writting-clean-code.html#spaces"><i class="fa fa-check"></i><b>7.3.3</b> Spaces</a></li>
+<li class="chapter" data-level="7.3.4" data-path="writting-clean-code.html"><a href="writting-clean-code.html#long-lists"><i class="fa fa-check"></i><b>7.3.4</b> Long Lists</a></li>
+<li class="chapter" data-level="7.3.5" data-path="writting-clean-code.html"><a href="writting-clean-code.html#function-calls"><i class="fa fa-check"></i><b>7.3.5</b> Function Calls</a></li>
+<li class="chapter" data-level="7.3.6" data-path="writting-clean-code.html"><a href="writting-clean-code.html#function-definition"><i class="fa fa-check"></i><b>7.3.6</b> Function Definition</a></li>
+<li class="chapter" data-level="7.3.7" data-path="writting-clean-code.html"><a href="writting-clean-code.html#exercises"><i class="fa fa-check"></i><b>7.3.7</b> Exercises</a></li>
+</ul></li>
 <li class="chapter" data-level="7.4" data-path="what-else-you-can-do-with-r.html"><a href="what-else-you-can-do-with-r.html"><i class="fa fa-check"></i><b>7.4</b> What else you can do with R</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
@@ -196,9 +204,127 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="writting-clean-code" class="section level2">
 <h2><span class="header-section-number">7.3</span> Writting clean code</h2>
+<ol style="list-style-type: decimal">
+<li>Do not exceed 80 characters per line</li>
+<li>Indent 2 spaces (this should be the default setting for tab to spaces)</li>
+</ol>
+<p>You should always use underscores as separators in variable names.</p>
+<div id="variable-names" class="section level3">
+<h3><span class="header-section-number">7.3.1</span> Variable Names</h3>
+<div class="sourceCode" id="cb63"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb63-1" data-line-number="1">avg_length &lt;-<span class="st"> </span><span class="dv">3</span></a>
+<a class="sourceLine" id="cb63-2" data-line-number="2">avg_len &lt;-<span class="st"> </span><span class="dv">4</span></a>
+<a class="sourceLine" id="cb63-3" data-line-number="3"></a>
+<a class="sourceLine" id="cb63-4" data-line-number="4"><span class="co">#Bad </span></a>
+<a class="sourceLine" id="cb63-5" data-line-number="5">avgLength &lt;-<span class="st"> </span><span class="dv">5</span></a></code></pre></div>
+<p>you can use numbers in variable names but you cannot start a variable name with a number.
+Most of the time you feels like using a number in a variable name you should consider using
+a list instead.</p>
+<div class="sourceCode" id="cb64"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb64-1" data-line-number="1">value_<span class="dv">1</span> &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">27</span>, <span class="dv">19</span>)</a>
+<a class="sourceLine" id="cb64-2" data-line-number="2">value_<span class="dv">2</span> &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">13</span>, <span class="dv">42</span>)</a>
+<a class="sourceLine" id="cb64-3" data-line-number="3"></a>
+<a class="sourceLine" id="cb64-4" data-line-number="4"><span class="co"># Better</span></a>
+<a class="sourceLine" id="cb64-5" data-line-number="5">values &lt;-<span class="st"> </span><span class="kw">list</span>(<span class="kw">c</span>(<span class="dv">27</span>, <span class="dv">19</span>), <span class="kw">c</span>(<span class="dv">13</span>, <span class="dv">42</span>))</a></code></pre></div>
+</div>
+<div id="assignment-operator" class="section level3">
+<h3><span class="header-section-number">7.3.2</span> Assignment Operator</h3>
+<p>Always use <code>&lt;-</code> for assignment and <code>=</code> for named arguments in function calls.</p>
+<div class="sourceCode" id="cb65"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb65-1" data-line-number="1"><span class="co"># good</span></a>
+<a class="sourceLine" id="cb65-2" data-line-number="2">x &lt;-<span class="st"> </span><span class="dv">10</span></a>
+<a class="sourceLine" id="cb65-3" data-line-number="3"></a>
+<a class="sourceLine" id="cb65-4" data-line-number="4"><span class="co"># bad</span></a>
+<a class="sourceLine" id="cb65-5" data-line-number="5">x =<span class="st"> </span><span class="dv">10</span></a>
+<a class="sourceLine" id="cb65-6" data-line-number="6"></a>
+<a class="sourceLine" id="cb65-7" data-line-number="7"><span class="co"># good</span></a>
+<a class="sourceLine" id="cb65-8" data-line-number="8">z &lt;-<span class="st"> </span><span class="kw">t.test</span>(<span class="dv">1</span><span class="op">:</span><span class="dv">10</span>, <span class="dt">y =</span> <span class="dv">10</span><span class="op">:</span><span class="dv">1</span>, <span class="dt">paired =</span> T)</a></code></pre></div>
+</div>
+<div id="spaces" class="section level3">
+<h3><span class="header-section-number">7.3.3</span> Spaces</h3>
+<ul>
+<li>Never use a space before a comma, always use a space after a comma.</li>
+<li>always put a space before and after a binary operator <code>+</code>, <code>-</code>, <code>*</code>, <code>=</code>, <code>==</code>, etc.</li>
+</ul>
+</div>
+<div id="long-lists" class="section level3">
+<h3><span class="header-section-number">7.3.4</span> Long Lists</h3>
+<div class="sourceCode" id="cb66"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb66-1" data-line-number="1"><span class="co"># good</span></a>
+<a class="sourceLine" id="cb66-2" data-line-number="2">students &lt;-<span class="st"> </span><span class="kw">list</span>(</a>
+<a class="sourceLine" id="cb66-3" data-line-number="3">  <span class="dt">jon =</span> <span class="st">&quot;Jon Snow&quot;</span>,</a>
+<a class="sourceLine" id="cb66-4" data-line-number="4">  <span class="dt">greg =</span> <span class="st">&quot;Greg Martin&quot;</span>,</a>
+<a class="sourceLine" id="cb66-5" data-line-number="5">  <span class="dt">reto =</span> <span class="st">&quot;Reto Wyss&quot;</span>,</a>
+<a class="sourceLine" id="cb66-6" data-line-number="6">  <span class="dt">severus =</span> <span class="st">&quot;Severus Snape&quot;</span>,</a>
+<a class="sourceLine" id="cb66-7" data-line-number="7">  <span class="dt">barney =</span> <span class="st">&quot;Barney Stinson&quot;</span></a>
+<a class="sourceLine" id="cb66-8" data-line-number="8">)</a>
+<a class="sourceLine" id="cb66-9" data-line-number="9"></a>
+<a class="sourceLine" id="cb66-10" data-line-number="10">students &lt;-<span class="st"> </span><span class="kw">list</span>(</a>
+<a class="sourceLine" id="cb66-11" data-line-number="11">  <span class="dt">jon     =</span> <span class="st">&quot;Jon Snow&quot;</span>,</a>
+<a class="sourceLine" id="cb66-12" data-line-number="12">  <span class="dt">greg    =</span> <span class="st">&quot;Greg Martin&quot;</span>,</a>
+<a class="sourceLine" id="cb66-13" data-line-number="13">  <span class="dt">reto    =</span> <span class="st">&quot;Reto Wyss&quot;</span>,</a>
+<a class="sourceLine" id="cb66-14" data-line-number="14">  <span class="dt">severus =</span> <span class="st">&quot;Severus Snape&quot;</span>,</a>
+<a class="sourceLine" id="cb66-15" data-line-number="15">  <span class="dt">barney  =</span> <span class="st">&quot;Barney Stinson&quot;</span></a>
+<a class="sourceLine" id="cb66-16" data-line-number="16">)</a>
+<a class="sourceLine" id="cb66-17" data-line-number="17"></a>
+<a class="sourceLine" id="cb66-18" data-line-number="18"><span class="co"># not our preference but kind of ok</span></a>
+<a class="sourceLine" id="cb66-19" data-line-number="19">students &lt;-<span class="st"> </span><span class="kw">list</span>(<span class="dt">jon =</span> <span class="st">&quot;Jon Snow&quot;</span>,</a>
+<a class="sourceLine" id="cb66-20" data-line-number="20">                 <span class="dt">greg =</span> <span class="st">&quot;Greg Martin&quot;</span>, </a>
+<a class="sourceLine" id="cb66-21" data-line-number="21">                 <span class="dt">reto =</span> <span class="st">&quot;Reto Wyss&quot;</span>,</a>
+<a class="sourceLine" id="cb66-22" data-line-number="22">                 <span class="dt">severus =</span> <span class="st">&quot;Severus Snape&quot;</span>,</a>
+<a class="sourceLine" id="cb66-23" data-line-number="23">                 <span class="dt">barney =</span> <span class="st">&quot;Barney Stinson&quot;</span>)</a>
+<a class="sourceLine" id="cb66-24" data-line-number="24"></a>
+<a class="sourceLine" id="cb66-25" data-line-number="25"><span class="co"># bad</span></a>
+<a class="sourceLine" id="cb66-26" data-line-number="26">students &lt;-<span class="st"> </span><span class="kw">list</span>(<span class="dt">jon =</span> <span class="st">&quot;Jon Snow&quot;</span>, <span class="dt">greg =</span> <span class="st">&quot;Greg Martin&quot;</span>, <span class="dt">reto =</span> <span class="st">&quot;Reto Wyss&quot;</span>, <span class="dt">severus =</span> <span class="st">&quot;Severus Snape&quot;</span>, <span class="dt">barney =</span> <span class="st">&quot;Barney Stinson&quot;</span>)</a></code></pre></div>
+</div>
+<div id="function-calls" class="section level3">
+<h3><span class="header-section-number">7.3.5</span> Function Calls</h3>
+<div class="sourceCode" id="cb67"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb67-1" data-line-number="1"><span class="co"># good</span></a>
+<a class="sourceLine" id="cb67-2" data-line-number="2">x &lt;-<span class="st"> </span><span class="kw">mean</span>(<span class="dv">1</span><span class="op">:</span><span class="dv">10</span>)</a>
+<a class="sourceLine" id="cb67-3" data-line-number="3"></a>
+<a class="sourceLine" id="cb67-4" data-line-number="4"><span class="co"># (1) piped unnamed argument</span></a>
+<a class="sourceLine" id="cb67-5" data-line-number="5">better_iris &lt;-<span class="st"> </span>iris <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb67-6" data-line-number="6"><span class="st">  </span><span class="kw">mutate</span>(</a>
+<a class="sourceLine" id="cb67-7" data-line-number="7">    <span class="dt">petal_volume =</span> Petal.Length <span class="op">*</span><span class="st"> </span>Petal.Width <span class="op">/</span><span class="st"> </span><span class="dv">2</span> <span class="op">*</span><span class="st"> </span>pi,</a>
+<a class="sourceLine" id="cb67-8" data-line-number="8">    <span class="dt">sepal_volume =</span> Sepal.Length <span class="op">*</span><span class="st"> </span>Sepal.Width <span class="op">/</span><span class="st"> </span><span class="dv">2</span> <span class="op">*</span><span class="st"> </span>pi</a>
+<a class="sourceLine" id="cb67-9" data-line-number="9">  )</a>
+<a class="sourceLine" id="cb67-10" data-line-number="10"></a>
+<a class="sourceLine" id="cb67-11" data-line-number="11"><span class="co"># (2) unnamed argument by itself, named arguments grouped</span></a>
+<a class="sourceLine" id="cb67-12" data-line-number="12">better_iris &lt;-<span class="st"> </span><span class="kw">mutate</span>(iris,</a>
+<a class="sourceLine" id="cb67-13" data-line-number="13">  <span class="dt">petal_volume =</span> Petal.Length <span class="op">*</span><span class="st"> </span>Petal.Width <span class="op">/</span><span class="st"> </span><span class="dv">2</span> <span class="op">*</span><span class="st"> </span>pi,</a>
+<a class="sourceLine" id="cb67-14" data-line-number="14">  <span class="dt">sepal_volume =</span> Sepal.Length <span class="op">*</span><span class="st"> </span>Sepal.Width <span class="op">/</span><span class="st"> </span><span class="dv">2</span> <span class="op">*</span><span class="st"> </span>pi</a>
+<a class="sourceLine" id="cb67-15" data-line-number="15">)</a>
+<a class="sourceLine" id="cb67-16" data-line-number="16"></a>
+<a class="sourceLine" id="cb67-17" data-line-number="17"><span class="co"># (3) ok</span></a>
+<a class="sourceLine" id="cb67-18" data-line-number="18">better_iris &lt;-<span class="st"> </span>iris <span class="op">%&gt;%</span><span class="st"> </span></a>
+<a class="sourceLine" id="cb67-19" data-line-number="19"><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">petal_volume =</span> Petal.Length <span class="op">*</span><span class="st"> </span>Petal.Width <span class="op">/</span><span class="st"> </span><span class="dv">2</span> <span class="op">*</span><span class="st"> </span>pi,</a>
+<a class="sourceLine" id="cb67-20" data-line-number="20">         <span class="dt">sepal_volume =</span> Sepal.Length <span class="op">*</span><span class="st"> </span>Sepal.Width <span class="op">/</span><span class="st"> </span><span class="dv">2</span> <span class="op">*</span><span class="st"> </span>pi)</a></code></pre></div>
+</div>
+<div id="function-definition" class="section level3">
+<h3><span class="header-section-number">7.3.6</span> Function Definition</h3>
+<div class="sourceCode" id="cb68"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb68-1" data-line-number="1"><span class="co"># good</span></a>
+<a class="sourceLine" id="cb68-2" data-line-number="2">my_function &lt;-<span class="st"> </span><span class="cf">function</span>(argument_one, argument_two) {</a>
+<a class="sourceLine" id="cb68-3" data-line-number="3">  <span class="co"># code here</span></a>
+<a class="sourceLine" id="cb68-4" data-line-number="4">}</a>
+<a class="sourceLine" id="cb68-5" data-line-number="5"></a>
+<a class="sourceLine" id="cb68-6" data-line-number="6"><span class="co"># bad</span></a>
+<a class="sourceLine" id="cb68-7" data-line-number="7">my_function &lt;-<span class="st"> </span><span class="cf">function</span>(argument_one, argument_two)</a>
+<a class="sourceLine" id="cb68-8" data-line-number="8">{</a>
+<a class="sourceLine" id="cb68-9" data-line-number="9">  <span class="co"># code here</span></a>
+<a class="sourceLine" id="cb68-10" data-line-number="10">}</a>
+<a class="sourceLine" id="cb68-11" data-line-number="11"></a>
+<a class="sourceLine" id="cb68-12" data-line-number="12"></a>
+<a class="sourceLine" id="cb68-13" data-line-number="13"><span class="co"># good</span></a>
+<a class="sourceLine" id="cb68-14" data-line-number="14">my_function &lt;-<span class="st"> </span><span class="cf">function</span>(argument_one, </a>
+<a class="sourceLine" id="cb68-15" data-line-number="15">                        argument_two, </a>
+<a class="sourceLine" id="cb68-16" data-line-number="16">                        argument_three, </a>
+<a class="sourceLine" id="cb68-17" data-line-number="17">                        argument_four) {</a>
+<a class="sourceLine" id="cb68-18" data-line-number="18">  <span class="co"># code here</span></a>
+<a class="sourceLine" id="cb68-19" data-line-number="19">}</a></code></pre></div>
+</div>
+<div id="exercises" class="section level3">
+<h3><span class="header-section-number">7.3.7</span> Exercises</h3>
+<p>Here you find some code snippets, judge for yourself whether these are written in good style.</p>
 <ul>
 <li>We can reference some stuff here</li>
 </ul>
+</div>
 </div>
             </section>
 
